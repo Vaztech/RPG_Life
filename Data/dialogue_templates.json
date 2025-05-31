@@ -1,0 +1,31 @@
+[
+  {
+    "id": "greeting_1",
+    "template": "Greetings, {player_name}! Welcome to {town_name}.",
+    "tags": [
+      "greeting"
+    ]
+  },
+  {
+    "id": "greeting_dark",
+    "template": "Beware, traveler. Since the {event_tone}, this place hasn\u2019t been the same...",
+    "tags": [
+      "greeting",
+      "dark"
+    ]
+  },
+  {
+    "id": "rumor_1",
+    "template": "They say a {faction_name} agent passed through {town_name} last night.",
+    "tags": [
+      "rumor"
+    ]
+  },
+  {
+    "id": "npc_backstory_1",
+    "template": "I used to be a member of the {faction_name}... before the {event_tone}.",
+    "tags": [
+      "backstory"
+    ]
+  }
+]

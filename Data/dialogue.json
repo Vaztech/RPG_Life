@@ -1,0 +1,139 @@
+{
+  "speaker": "Village Elder",
+  "lines": [
+    "Greetings, young traveler! Our village is beset by troubles, and I see you’ve come prepared. What kind of adventurer are you?",
+    {
+      "text": "Choose your path:",
+      "options": [
+        { "label": "I’m a Warrior, ready for battle!", "next_index": 2 },
+        { "label": "I’m a Mage, skilled in magic.", "next_index": 13 },
+        { "label": "I’m a Thief, swift and cunning.", "next_index": 24 },
+        { "label": "I’m just a traveler with basic gear.", "next_index": 35 }
+      ]
+    },
+    "A Warrior, eh? That iron sword and wooden shield will serve you well in battle. You also have a minor potion for emergencies.",
+    {
+      "text": "Before I tell you about our troubles, do you have any questions?",
+      "options": [
+        { "label": "How are the village’s defenses?", "next_index": 4 },
+        { "label": "No, I’d like to hear about the tasks.", "next_index": 6 }
+      ]
+    },
+    "Our defenses are modest—mostly volunteers with pitchforks! We’ve relied on brave warriors like you to protect us from threats like goblins and wolves. The town guard does what he can, but we need more help.",
+    {
+      "text": "Anything else you’d like to know?",
+      "options": [
+        { "label": "I’m ready to hear about the tasks.", "next_index": 6 }
+      ]
+    },
+    "We have several pressing issues that could use your strength.",
+    "The town guard has reported goblins attacking caravans on the Old Forest Road. They need someone to eliminate 5 goblin raiders. It’s a dangerous task, but the reward is 75 gold and an iron sword.",
+    "Or, a farmer at Greenfield Farms is dealing with a wolf infestation. He needs 8 dire wolves hunted down. You’d earn 90 gold and a wolf pelt cloak for your efforts.",
+    "Lastly, a ranger mentioned dragon sightings in the Frostpeak Mountains. An Adult Red Dragon has been spotted—very dangerous! Investigating could yield 250 gold and dragonscale armor.",
+    {
+      "text": "Which task will you take on?",
+      "options": [
+        { "label": "I’ll deal with the goblin raiders.", "next_index": 11 },
+        { "label": "I’ll hunt the dire wolves.", "next_index": 12 },
+        { "label": "I’ll investigate the dragon sightings.", "next_index": 13 },
+        { "label": "I’d rather not take on any of these.", "next_index": 46 }
+      ]
+    },
+    "Head to the Old Forest Road and find the town guard. He’ll guide you to the goblin raiders. Be careful—they’re vicious in groups! Good luck, Warrior.",
+    "The farmer at Greenfield Farms will be grateful. Those dire wolves are fierce, so use your shield wisely. Safe travels, Warrior.",
+    "That’s a bold choice! The Frostpeak Mountains are treacherous, and the Adult Red Dragon breathes fire. Your iron sword might not withstand its heat, but your bravery might! The ranger will meet you there. Farewell, Warrior.",
+    "A Mage, I see! Your basic staff and apprentice robe mark you as a spellcaster, and that potion of mana will aid your magic.",
+    {
+      "text": "Before I share our needs, do you have any questions?",
+      "options": [
+        { "label": "Are there magical phenomena nearby?", "next_index": 15 },
+        { "label": "No, I’d like to hear about the tasks.", "next_index": 17 }
+      ]
+    },
+    "Oh yes, the area is rife with magical disturbances! Blackwood Manor has been haunted for years, and there are rumors of a lich in the Necropolis of Valthorax. Even the Singing Caverns have harmonic crystals that resonate with arcane energy.",
+    {
+      "text": "Anything else you’d like to know?",
+      "options": [
+        { "label": "I’m ready to hear about the tasks.", "next_index": 17 }
+      ]
+    },
+    "We have tasks that could benefit from your arcane skills.",
+    "A mage in the village needs 3 rare spell components for his research. You’d need to gather them from various locations, earning 80 gold, a minor mana potion, and a scroll of teleportation.",
+    "There’s also supernatural activity at Blackwood Manor. A priest needs someone to investigate the haunting source. It’s worth 200 gold, a holy symbol, and blessed water.",
+    "Finally, an archmage seeks someone to destroy the phylactery of the lich Valthorax in the Necropolis of Valthorax. There may be undead like an Aboleth there. It’s a high-risk task for 2000 gold, a Ring of Protection +1, and a Scroll of Fireball.",
+    {
+      "text": "Which task will you undertake?",
+      "options": [
+        { "label": "I’ll gather the spell components.", "next_index": 22 },
+        { "label": "I’ll investigate Blackwood Manor.", "next_index": 23 },
+        { "label": "I’ll destroy the lich’s phylactery.", "next_index": 24 },
+        { "label": "I’d rather not take on any of these.", "next_index": 46 }
+      ]
+    },
+    "Seek out the mage in the village. He’ll tell you where to find those spell components. Your magic will be key. Safe travels, Mage.",
+    "The priest at Blackwood Manor will be relieved to see you. Be prepared for spectral forces—your staff might help. Farewell, Mage.",
+    "A noble cause! The Necropolis of Valthorax is dark and dangerous, and creatures like an Aboleth may lurk there with its telepathy. You’ll need holy water and a silvered sword, which the archmage will provide. Good luck, Mage.",
+    "A Thief, I see! That rusty dagger and leather cloak suit your stealthy nature, and you’ve got a minor potion for emergencies.",
+    {
+      "text": "Before I tell you about our troubles, do you have any questions?",
+      "options": [
+        { "label": "Is there much crime in the village?", "next_index": 26 },
+        { "label": "No, I’d like to hear about the tasks.", "next_index": 28 }
+      ]
+    },
+    "Crime? Well, we’ve had our share of trouble. Thieves from Shadowfang Den stole a noble’s necklace recently, and there are whispers of a spy network at Outpost Karrath. Smuggler’s Cove also attracts unsavory types hunting for pirate treasure.",
+    {
+      "text": "Anything else you’d like to know?",
+      "options": [
+        { "label": "I’m ready to hear about the tasks.", "next_index": 28 }
+      ]
+    },
+    "We have tasks that could use your cunning.",
+    "A spymaster needs someone to infiltrate a spy network at Outpost Karrath, posing as a mercenary to uncover the spy mastermind. It’s worth 220 gold and a cloak of shadows.",
+    "A noble reported a stolen royal necklace hidden in Shadowfang Den. Recovering it could earn you 300 gold and a noble cloak.",
+    "A tavern keeper heard of Captain Bloodbeard’s lost pirate treasure at Smuggler’s Cove. Finding the treasure map could net you 500 gold and a golden compass.",
+    {
+      "text": "Which task will you take on?",
+      "options": [
+        { "label": "I’ll infiltrate the spy network.", "next_index": 33 },
+        { "label": "I’ll recover the royal necklace.", "next_index": 34 },
+        { "label": "I’ll find the pirate treasure.", "next_index": 35 },
+        { "label": "I’d rather not take on any of these.", "next_index": 46 }
+      ]
+    },
+    "The spymaster at Outpost Karrath will brief you. Your cloak will help you blend in. Be cautious—they’re suspicious of newcomers. Farewell, Thief.",
+    "The noble will be grateful. Shadowfang Den is full of thieves, but your dagger and stealth should serve you well. Safe travels, Thief.",
+    "A treasure hunt, eh? Smuggler’s Cove is dangerous, but your cunning might lead you to the treasure map. The tavern keeper will guide you. Good luck, Thief.",
+    "I see you’re a humble traveler with just a stick and a minor potion. Even so, you can help with some simpler tasks.",
+    {
+      "text": "Before I share what we need, do you have any questions?",
+      "options": [
+        { "label": "Any advice for a new traveler?", "next_index": 37 },
+        { "label": "No, I’d like to hear about the tasks.", "next_index": 39 }
+      ]
+    },
+    "Of course! Stay on the main roads—they’re safer. If you’re gathering herbs or fishing, watch for wild animals. And always carry a potion or two, like that minor potion you have. It might save your life!",
+    {
+      "text": "Anything else you’d like to know?",
+      "options": [
+        { "label": "I’m ready to hear about the tasks.", "next_index": 39 }
+      ]
+    },
+    "The blacksmith needs someone to deliver a weapon crate to Stonekeep Barracks. It’s a straightforward task for 40 gold and reinforced gloves.",
+    "The herbalist in Whispering Glade needs 10 Moonpetal flowers for her remedies. You’d earn 30 gold, an antidote potion, and a stamina potion.",
+    "A fisherman at Lake Mirrowen is hosting an annual fishing contest. Catching the Golden Scale fish could win you 100 gold and a master fishing rod.",
+    {
+      "text": "Which task will you take on?",
+      "options": [
+        { "label": "I’ll deliver the weapons.", "next_index": 43 },
+        { "label": "I’ll collect the Moonpetal flowers.", "next_index": 44 },
+        { "label": "I’ll join the fishing contest.", "next_index": 45 },
+        { "label": "I’d rather not take on any of these.", "next_index": 46 }
+      ]
+    },
+    "The blacksmith will give you the weapon crate. Deliver it to Stonekeep Barracks—it’s a simple journey. Safe travels, traveler.",
+    "The herbalist in Whispering Glade will show you where to find the Moonpetal flowers. Your stick might help you fend off small pests. Farewell, traveler.",
+    "The fisherman at Lake Mirrowen will be pleased to have you join the contest. The Golden Scale fish is tricky to catch—good luck! Safe journey, traveler.",
+    "I understand. The roads are dangerous these days. May you find safety on your journey!"
+  ]
+}

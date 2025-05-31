@@ -1,0 +1,2125 @@
+{
+  "misc": [
+    {
+      "name": "Unarmed Strike",
+      "type": "Weapons",
+      "subtype": "Simple",
+      "properties": {
+        "name": "Unarmed Strike",
+        "cost": 0,
+        "weight": 0,
+        "damage": "1d3 (nonlethal)",
+        "critical": "x2",
+        "type": "Bludgeoning",
+        "properties": [
+          "Light"
+        ]
+      }
+    },
+    {
+      "name": "Dagger",
+      "type": "Weapons",
+      "subtype": "Simple",
+      "properties": {
+        "name": "Dagger",
+        "cost": 2,
+        "weight": 1,
+        "damage": "1d4",
+        "critical": "19-20/x2",
+        "range_increment": 10,
+        "type": "Piercing",
+        "properties": [
+          "Light",
+          "Thrown"
+        ]
+      }
+    },
+    {
+      "name": "Club",
+      "type": "Weapons",
+      "subtype": "Simple",
+      "properties": {
+        "name": "Club",
+        "cost": 0,
+        "weight": 3,
+        "damage": "1d6",
+        "critical": "x2",
+        "type": "Bludgeoning",
+        "properties": [
+          "Light"
+        ]
+      }
+    },
+    {
+      "name": "Heavy Mace",
+      "type": "Weapons",
+      "subtype": "Simple",
+      "properties": {
+        "name": "Heavy Mace",
+        "cost": 12,
+        "weight": 8,
+        "damage": "1d8",
+        "critical": "x2",
+        "type": "Bludgeoning",
+        "properties": [
+          "One-Handed"
+        ]
+      }
+    },
+    {
+      "name": "Shortbow",
+      "type": "Weapons",
+      "subtype": "Simple",
+      "properties": {
+        "name": "Shortbow",
+        "cost": 30,
+        "weight": 2,
+        "damage": "1d6",
+        "critical": "x3",
+        "range_increment": 60,
+        "type": "Piercing",
+        "properties": [
+          "Ranged",
+          "Two-Handed"
+        ]
+      }
+    },
+    {
+      "name": "Sling",
+      "type": "Weapons",
+      "subtype": "Simple",
+      "properties": {
+        "name": "Sling",
+        "cost": 0,
+        "weight": 0,
+        "damage": "1d4",
+        "critical": "x2",
+        "range_increment": 50,
+        "type": "Bludgeoning",
+        "properties": [
+          "Ranged"
+        ]
+      }
+    },
+    {
+      "name": "Longsword",
+      "type": "Weapons",
+      "subtype": "Martial",
+      "properties": {
+        "name": "Longsword",
+        "cost": 15,
+        "weight": 4,
+        "damage": "1d8",
+        "critical": "19-20/x2",
+        "type": "Slashing",
+        "properties": [
+          "One-Handed"
+        ]
+      }
+    },
+    {
+      "name": "Greatsword",
+      "type": "Weapons",
+      "subtype": "Martial",
+      "properties": {
+        "name": "Greatsword",
+        "cost": 50,
+        "weight": 8,
+        "damage": "2d6",
+        "critical": "19-20/x2",
+        "type": "Slashing",
+        "properties": [
+          "Two-Handed"
+        ]
+      }
+    },
+    {
+      "name": "Rapier",
+      "type": "Weapons",
+      "subtype": "Martial",
+      "properties": {
+        "name": "Rapier",
+        "cost": 20,
+        "weight": 2,
+        "damage": "1d6",
+        "critical": "18-20/x2",
+        "type": "Piercing",
+        "properties": [
+          "One-Handed",
+          "Finesse"
+        ]
+      }
+    },
+    {
+      "name": "Longbow",
+      "type": "Weapons",
+      "subtype": "Martial",
+      "properties": {
+        "name": "Longbow",
+        "cost": 75,
+        "weight": 3,
+        "damage": "1d8",
+        "critical": "x3",
+        "range_increment": 100,
+        "type": "Piercing",
+        "properties": [
+          "Ranged",
+          "Two-Handed"
+        ]
+      }
+    },
+    {
+      "name": "Halberd",
+      "type": "Weapons",
+      "subtype": "Martial",
+      "properties": {
+        "name": "Halberd",
+        "cost": 10,
+        "weight": 12,
+        "damage": "1d10",
+        "critical": "x3",
+        "type": "Slashing or Piercing",
+        "properties": [
+          "Two-Handed",
+          "Reach",
+          "Trip"
+        ]
+      }
+    },
+    {
+      "name": "Bastard Sword",
+      "type": "Weapons",
+      "subtype": "Exotic",
+      "properties": {
+        "name": "Bastard Sword",
+        "cost": 35,
+        "weight": 6,
+        "damage": "1d10 (one-handed) or 1d12 (two-handed)",
+        "critical": "19-20/x2",
+        "type": "Slashing",
+        "properties": [
+          "Versatile (Martial 1H / Exotic 2H)"
+        ]
+      }
+    },
+    {
+      "name": "Spiked Chain",
+      "type": "Weapons",
+      "subtype": "Exotic",
+      "properties": {
+        "name": "Spiked Chain",
+        "cost": 25,
+        "weight": 10,
+        "damage": "2d4",
+        "critical": "x2",
+        "type": "Piercing",
+        "properties": [
+          "Reach",
+          "Disarm",
+          "Trip"
+        ]
+      }
+    },
+    {
+      "name": "Kukri",
+      "type": "Weapons",
+      "subtype": "Exotic",
+      "properties": {
+        "name": "Kukri",
+        "cost": 8,
+        "weight": 2,
+        "damage": "1d4",
+        "critical": "18-20/x2",
+        "type": "Slashing",
+        "properties": [
+          "Light"
+        ]
+      }
+    },
+    {
+      "name": "Shuriken",
+      "type": "Weapons",
+      "subtype": "Exotic",
+      "properties": {
+        "name": "Shuriken",
+        "cost": 1,
+        "weight": 0.5,
+        "damage": "1d2",
+        "critical": "x2",
+        "range_increment": 10,
+        "type": "Piercing",
+        "properties": [
+          "Thrown",
+          "Ammunition"
+        ]
+      }
+    },
+    {
+      "name": "Padded Armor",
+      "type": "Armor",
+      "subtype": "Light",
+      "properties": {
+        "name": "Padded Armor",
+        "cost": 5,
+        "weight": 10,
+        "ac_bonus": 1,
+        "max_dex": 8,
+        "armor_check_penalty": 0,
+        "arcane_spell_failure": 5,
+        "speed_30ft": 30,
+        "speed_20ft": 20,
+        "description": "Quilted layers of cloth and batting."
+      }
+    },
+    {
+      "name": "Leather Armor",
+      "type": "Armor",
+      "subtype": "Light",
+      "properties": {
+        "name": "Leather Armor",
+        "cost": 10,
+        "weight": 15,
+        "ac_bonus": 2,
+        "max_dex": 6,
+        "armor_check_penalty": 0,
+        "arcane_spell_failure": 10,
+        "speed_30ft": 30,
+        "speed_20ft": 20,
+        "description": "Hardened leather torso with soft underlay."
+      }
+    },
+    {
+      "name": "Studded Leather",
+      "type": "Armor",
+      "subtype": "Light",
+      "properties": {
+        "name": "Studded Leather",
+        "cost": 25,
+        "weight": 20,
+        "ac_bonus": 3,
+        "max_dex": 5,
+        "armor_check_penalty": -1,
+        "arcane_spell_failure": 15,
+        "speed_30ft": 30,
+        "speed_20ft": 20,
+        "description": "Leather reinforced with metal rivets."
+      }
+    },
+    {
+      "name": "Chain Shirt",
+      "type": "Armor",
+      "subtype": "Light",
+      "properties": {
+        "name": "Chain Shirt",
+        "cost": 100,
+        "weight": 25,
+        "ac_bonus": 4,
+        "max_dex": 4,
+        "armor_check_penalty": -2,
+        "arcane_spell_failure": 20,
+        "speed_30ft": 30,
+        "speed_20ft": 20,
+        "description": "Interlocking metal rings covering torso."
+      }
+    },
+    {
+      "name": "Hide Armor",
+      "type": "Armor",
+      "subtype": "Medium",
+      "properties": {
+        "name": "Hide Armor",
+        "cost": 15,
+        "weight": 25,
+        "ac_bonus": 3,
+        "max_dex": 4,
+        "armor_check_penalty": -3,
+        "arcane_spell_failure": 20,
+        "speed_30ft": 20,
+        "speed_20ft": 15,
+        "description": "Thick layers of animal hides."
+      }
+    },
+    {
+      "name": "Scale Mail",
+      "type": "Armor",
+      "subtype": "Medium",
+      "properties": {
+        "name": "Scale Mail",
+        "cost": 50,
+        "weight": 30,
+        "ac_bonus": 4,
+        "max_dex": 3,
+        "armor_check_penalty": -4,
+        "arcane_spell_failure": 25,
+        "speed_30ft": 20,
+        "speed_20ft": 15,
+        "description": "Overlapping metal scales sewn to leather."
+      }
+    },
+    {
+      "name": "Chainmail",
+      "type": "Armor",
+      "subtype": "Medium",
+      "properties": {
+        "name": "Chainmail",
+        "cost": 150,
+        "weight": 40,
+        "ac_bonus": 5,
+        "max_dex": 2,
+        "armor_check_penalty": -5,
+        "arcane_spell_failure": 30,
+        "speed_30ft": 20,
+        "speed_20ft": 15,
+        "description": "Interlocking metal rings covering torso and limbs."
+      }
+    },
+    {
+      "name": "Breastplate",
+      "type": "Armor",
+      "subtype": "Medium",
+      "properties": {
+        "name": "Breastplate",
+        "cost": 200,
+        "weight": 30,
+        "ac_bonus": 5,
+        "max_dex": 3,
+        "armor_check_penalty": -4,
+        "arcane_spell_failure": 25,
+        "speed_30ft": 20,
+        "speed_20ft": 15,
+        "description": "Metal chestpiece with leather underlay."
+      }
+    },
+    {
+      "name": "Splint Mail",
+      "type": "Armor",
+      "subtype": "Heavy",
+      "properties": {
+        "name": "Splint Mail",
+        "cost": 200,
+        "weight": 45,
+        "ac_bonus": 6,
+        "max_dex": 0,
+        "armor_check_penalty": -7,
+        "arcane_spell_failure": 40,
+        "speed_30ft": 20,
+        "speed_20ft": 15,
+        "description": "Vertical metal strips riveted to leather."
+      }
+    },
+    {
+      "name": "Banded Mail",
+      "type": "Armor",
+      "subtype": "Heavy",
+      "properties": {
+        "name": "Banded Mail",
+        "cost": 250,
+        "weight": 35,
+        "ac_bonus": 6,
+        "max_dex": 1,
+        "armor_check_penalty": -6,
+        "arcane_spell_failure": 35,
+        "speed_30ft": 20,
+        "speed_20ft": 15,
+        "description": "Horizontal metal bands connected by chains."
+      }
+    },
+    {
+      "name": "Half-Plate",
+      "type": "Armor",
+      "subtype": "Heavy",
+      "properties": {
+        "name": "Half-Plate",
+        "cost": 600,
+        "weight": 50,
+        "ac_bonus": 7,
+        "max_dex": 0,
+        "armor_check_penalty": -7,
+        "arcane_spell_failure": 40,
+        "speed_30ft": 20,
+        "speed_20ft": 15,
+        "description": "Partial plate armor covering vital areas."
+      }
+    },
+    {
+      "name": "Full Plate",
+      "type": "Armor",
+      "subtype": "Heavy",
+      "properties": {
+        "name": "Full Plate",
+        "cost": 1500,
+        "weight": 50,
+        "ac_bonus": 8,
+        "max_dex": 1,
+        "armor_check_penalty": -6,
+        "arcane_spell_failure": 35,
+        "speed_30ft": 20,
+        "speed_20ft": 15,
+        "description": "Full-body articulated metal plates."
+      }
+    },
+    {
+      "name": "Cloak of Resistance +1",
+      "type": "MagicItems",
+      "subtype": "Wondrous_Items",
+      "properties": {
+        "name": "Cloak of Resistance +1",
+        "cost": 1000,
+        "weight": 1,
+        "aura": "Faint abjuration",
+        "cl": 5,
+        "description": "+1 resistance bonus on all saving throws.",
+        "slots": [
+          "Shoulders"
+        ]
+      }
+    },
+    {
+      "name": "Boots of Striding and Springing",
+      "type": "MagicItems",
+      "subtype": "Wondrous_Items",
+      "properties": {
+        "name": "Boots of Striding and Springing",
+        "cost": 5500,
+        "weight": 1,
+        "aura": "Faint transmutation",
+        "cl": 3,
+        "description": "+10 ft enhancement bonus to land speed, +5 competence bonus on Jump checks.",
+        "slots": [
+          "Feet"
+        ]
+      }
+    },
+    {
+      "name": "Headband of Intellect +2",
+      "type": "MagicItems",
+      "subtype": "Wondrous_Items",
+      "properties": {
+        "name": "Headband of Intellect +2",
+        "cost": 4000,
+        "weight": 0.5,
+        "aura": "Faint transmutation",
+        "cl": 4,
+        "description": "+2 enhancement bonus to Intelligence.",
+        "slots": [
+          "Head"
+        ]
+      }
+    },
+    {
+      "name": "Potion of Cure Light Wounds",
+      "type": "MagicItems",
+      "subtype": "Potions",
+      "properties": {
+        "name": "Potion of Cure Light Wounds",
+        "cost": 50,
+        "weight": 0.1,
+        "aura": "Faint conjuration",
+        "cl": 1,
+        "description": "Heals 1d8+1 hit points."
+      }
+    },
+    {
+      "name": "Potion of Invisibility",
+      "type": "MagicItems",
+      "subtype": "Potions",
+      "properties": {
+        "name": "Potion of Invisibility",
+        "cost": 300,
+        "weight": 0.1,
+        "aura": "Faint illusion",
+        "cl": 3,
+        "description": "Grants invisibility for 3 minutes (CL 3)."
+      }
+    },
+    {
+      "name": "Potion of Fly",
+      "type": "MagicItems",
+      "subtype": "Potions",
+      "properties": {
+        "name": "Potion of Fly",
+        "cost": 750,
+        "weight": 0.1,
+        "aura": "Moderate transmutation",
+        "cl": 5,
+        "description": "Grants fly speed 60 ft (average maneuverability) for 5 minutes."
+      }
+    },
+    {
+      "name": "Scroll of Identify",
+      "type": "MagicItems",
+      "subtype": "Scrolls",
+      "properties": {
+        "name": "Scroll of Identify",
+        "cost": 125,
+        "weight": 0.1,
+        "aura": "Faint divination",
+        "cl": 1,
+        "description": "Reveals magic item properties (requires arcane caster to use)."
+      }
+    },
+    {
+      "name": "Scroll of Fireball (CL 5)",
+      "type": "MagicItems",
+      "subtype": "Scrolls",
+      "properties": {
+        "name": "Scroll of Fireball (CL 5)",
+        "cost": 375,
+        "weight": 0.1,
+        "aura": "Moderate evocation",
+        "cl": 5,
+        "description": "Deals 5d6 fire damage in 20-ft radius spread."
+      }
+    },
+    {
+      "name": "Metamagic Rod, Extend Lesser",
+      "type": "MagicItems",
+      "subtype": "Rods",
+      "properties": {
+        "name": "Metamagic Rod, Extend Lesser",
+        "cost": 3000,
+        "weight": 1,
+        "aura": "Moderate (varies)",
+        "cl": 9,
+        "description": "Extends spell duration (1st-3rd level spells) 3/day."
+      }
+    },
+    {
+      "name": "Ring of Protection +1",
+      "type": "MagicItems",
+      "subtype": "Rings",
+      "properties": {
+        "name": "Ring of Protection +1",
+        "cost": 2000,
+        "weight": 0.1,
+        "aura": "Faint abjuration",
+        "cl": 5,
+        "description": "+1 deflection bonus to AC."
+      }
+    },
+    {
+      "name": "Ring of Invisibility",
+      "type": "MagicItems",
+      "subtype": "Rings",
+      "properties": {
+        "name": "Ring of Invisibility",
+        "cost": 20000,
+        "weight": 0.1,
+        "aura": "Strong illusion",
+        "cl": 7,
+        "description": "At-will invisibility (standard action activation)."
+      }
+    },
+    {
+      "name": "Staff of Fire",
+      "type": "MagicItems",
+      "subtype": "Staves",
+      "properties": {
+        "name": "Staff of Fire",
+        "cost": 17750,
+        "weight": 5,
+        "aura": "Moderate evocation",
+        "cl": 8,
+        "description": "50 charges - Burning Hands (1), Fireball (3), Wall of Fire (4)."
+      }
+    },
+    {
+      "name": "Wand of Magic Missile (CL 1)",
+      "type": "MagicItems",
+      "subtype": "Wands",
+      "properties": {
+        "name": "Wand of Magic Missile (CL 1)",
+        "cost": 750,
+        "weight": 0.1,
+        "aura": "Faint evocation",
+        "cl": 1,
+        "description": "50 charges - 1d4+1 force damage per missile."
+      }
+    },
+    {
+      "name": "Wand of Cure Light Wounds (CL 1)",
+      "type": "MagicItems",
+      "subtype": "Wands",
+      "properties": {
+        "name": "Wand of Cure Light Wounds (CL 1)",
+        "cost": 750,
+        "weight": 0.1,
+        "aura": "Faint conjuration",
+        "cl": 1,
+        "description": "50 charges - Heals 1d8+1 hit points."
+      }
+    },
+    {
+      "name": "+1 Flaming Longsword",
+      "type": "MagicItems",
+      "subtype": "Weapons",
+      "properties": {
+        "name": "+1 Flaming Longsword",
+        "cost": 8315,
+        "weight": 4,
+        "aura": "Moderate evocation",
+        "cl": 10,
+        "description": "+1 enhancement, +1d6 fire damage on hit."
+      }
+    },
+    {
+      "name": "+1 Heavy Steel Shield",
+      "type": "MagicItems",
+      "subtype": "Armor",
+      "properties": {
+        "name": "+1 Heavy Steel Shield",
+        "cost": 1170,
+        "weight": 15,
+        "aura": "Faint abjuration",
+        "cl": 3,
+        "description": "+1 enhancement bonus to AC."
+      }
+    },
+    {
+      "name": "Sword of Subtlety",
+      "type": "MagicItems",
+      "subtype": "Intelligent_Items",
+      "properties": {
+        "name": "Sword of Subtlety",
+        "cost": 22310,
+        "weight": 4,
+        "aura": "Strong varied",
+        "cl": 15,
+        "description": "+1 shortsword, +4 attack/damage when opponent denied Dex bonus. Ego: 12."
+      }
+    },
+    {
+      "name": "Backpack",
+      "type": "Gear",
+      "subtype": "Containers",
+      "properties": {
+        "name": "Backpack",
+        "cost": 2,
+        "weight": 2,
+        "capacity": "1 cubic foot/30 lbs",
+        "description": "A simple cloth or leather pack for carrying supplies."
+      }
+    },
+    {
+      "name": "Bag of Holding (Type I)",
+      "type": "Gear",
+      "subtype": "Containers",
+      "properties": {
+        "name": "Bag of Holding (Type I)",
+        "cost": 2500,
+        "weight": 15,
+        "capacity": "250 lbs or 30 cubic feet",
+        "description": "Magical bag that holds more than its size suggests."
+      }
+    },
+    {
+      "name": "Chest, Empty",
+      "type": "Gear",
+      "subtype": "Containers",
+      "properties": {
+        "name": "Chest, Empty",
+        "cost": 2,
+        "weight": 25,
+        "capacity": "12 cubic feet",
+        "description": "Wooden storage container for goods."
+      }
+    },
+    {
+      "name": "Thieves' Tools",
+      "type": "Gear",
+      "subtype": "Tools",
+      "properties": {
+        "name": "Thieves' Tools",
+        "cost": 30,
+        "weight": 2,
+        "description": "Required for Open Lock and Disable Device checks (+2 circumstance bonus)."
+      }
+    },
+    {
+      "name": "Disguise Kit",
+      "type": "Gear",
+      "subtype": "Tools",
+      "properties": {
+        "name": "Disguise Kit",
+        "cost": 50,
+        "weight": 8,
+        "description": "Provides +2 circumstance bonus on Disguise checks."
+      }
+    },
+    {
+      "name": "Healer's Kit",
+      "type": "Gear",
+      "subtype": "Tools",
+      "properties": {
+        "name": "Healer's Kit",
+        "cost": 50,
+        "weight": 1,
+        "uses": 10,
+        "description": "Grants +2 circumstance bonus on Heal checks."
+      }
+    },
+    {
+      "name": "Grappling Hook",
+      "type": "Gear",
+      "subtype": "Climbing & Travel",
+      "properties": {
+        "name": "Grappling Hook",
+        "cost": 1,
+        "weight": 4,
+        "description": "Used with rope for climbing."
+      }
+    },
+    {
+      "name": "Rope, Silk (50 ft)",
+      "type": "Gear",
+      "subtype": "Climbing & Travel",
+      "properties": {
+        "name": "Rope, Silk (50 ft)",
+        "cost": 10,
+        "weight": 5,
+        "description": "Supports 300 lbs, +2 Use Rope bonus."
+      }
+    },
+    {
+      "name": "Tent",
+      "type": "Gear",
+      "subtype": "Climbing & Travel",
+      "properties": {
+        "name": "Tent",
+        "cost": 10,
+        "weight": 20,
+        "description": "Sleeps two people; provides shelter from elements."
+      }
+    },
+    {
+      "name": "Torch",
+      "type": "Gear",
+      "subtype": "Light Sources",
+      "properties": {
+        "name": "Torch",
+        "cost": 0.01,
+        "weight": 1,
+        "duration": "1 hour",
+        "description": "Provides bright light in 20-ft radius."
+      }
+    },
+    {
+      "name": "Lantern, Bullseye",
+      "type": "Gear",
+      "subtype": "Light Sources",
+      "properties": {
+        "name": "Lantern, Bullseye",
+        "cost": 12,
+        "weight": 3,
+        "duration": "6 hours/pint of oil",
+        "description": "Projects 60-ft cone of light."
+      }
+    },
+    {
+      "name": "Sunrod",
+      "type": "Gear",
+      "subtype": "Light Sources",
+      "properties": {
+        "name": "Sunrod",
+        "cost": 2,
+        "weight": 1,
+        "duration": "6 hours",
+        "description": "Magical light source (bright as daylight)."
+      }
+    },
+    {
+      "name": "Rations, Trail (per day)",
+      "type": "Gear",
+      "subtype": "Food & Lodging",
+      "properties": {
+        "name": "Rations, Trail (per day)",
+        "cost": 0.5,
+        "weight": 1,
+        "description": "Preserved food for one day's travel."
+      }
+    },
+    {
+      "name": "Waterskin",
+      "type": "Gear",
+      "subtype": "Food & Lodging",
+      "properties": {
+        "name": "Waterskin",
+        "cost": 1,
+        "weight": 4,
+        "capacity": "1 gallon",
+        "description": "Holds water or other liquids."
+      }
+    },
+    {
+      "name": "Inn Stay, Common (per night)",
+      "type": "Gear",
+      "subtype": "Food & Lodging",
+      "properties": {
+        "name": "Inn Stay, Common (per night)",
+        "cost": 0.5,
+        "weight": 0,
+        "description": "Includes meal and shared room."
+      }
+    },
+    {
+      "name": "Chalk",
+      "type": "Gear",
+      "subtype": "Miscellaneous",
+      "properties": {
+        "name": "Chalk",
+        "cost": 0.01,
+        "weight": 0,
+        "description": "For marking surfaces."
+      }
+    },
+    {
+      "name": "Crowbar",
+      "type": "Gear",
+      "subtype": "Miscellaneous",
+      "properties": {
+        "name": "Crowbar",
+        "cost": 2,
+        "weight": 5,
+        "description": "+2 circumstance bonus to Strength checks for opening doors."
+      }
+    },
+    {
+      "name": "Mirror, Small Steel",
+      "type": "Gear",
+      "subtype": "Miscellaneous",
+      "properties": {
+        "name": "Mirror, Small Steel",
+        "cost": 10,
+        "weight": 0.5,
+        "description": "Useful for signaling or checking around corners."
+      }
+    },
+    {
+      "name": "Acid (flask)",
+      "type": "Gear",
+      "subtype": "Special Substances",
+      "properties": {
+        "name": "Acid (flask)",
+        "cost": 10,
+        "weight": 1,
+        "description": "Deals 1d6 acid damage on contact."
+      }
+    },
+    {
+      "name": "Alchemist's Fire (flask)",
+      "type": "Gear",
+      "subtype": "Special Substances",
+      "properties": {
+        "name": "Alchemist's Fire (flask)",
+        "cost": 20,
+        "weight": 1,
+        "description": "Deals 1d6 fire damage initially, 1d6 next round unless extinguished."
+      }
+    },
+    {
+      "name": "Holy Water (flask)",
+      "type": "Gear",
+      "subtype": "Special Substances",
+      "properties": {
+        "name": "Holy Water (flask)",
+        "cost": 25,
+        "weight": 1,
+        "description": "Deals 2d4 damage to undead and evil outsiders."
+      }
+    },
+    {
+      "name": "Dagger",
+      "type": "Equipment",
+      "subtype": "Simple",
+      "properties": {
+        "name": "Dagger",
+        "cost": 2,
+        "weight": 1,
+        "damage": "1d4",
+        "critical": "19-20/x2",
+        "range_increment": 10,
+        "type": "Piercing",
+        "properties": [
+          "Light",
+          "Thrown"
+        ]
+      }
+    },
+    {
+      "name": "Club",
+      "type": "Equipment",
+      "subtype": "Simple",
+      "properties": {
+        "name": "Club",
+        "cost": 0,
+        "weight": 3,
+        "damage": "1d6",
+        "critical": "x2",
+        "type": "Bludgeoning",
+        "properties": [
+          "Light"
+        ]
+      }
+    },
+    {
+      "name": "Heavy Mace",
+      "type": "Equipment",
+      "subtype": "Simple",
+      "properties": {
+        "name": "Heavy Mace",
+        "cost": 12,
+        "weight": 8,
+        "damage": "1d8",
+        "critical": "x2",
+        "type": "Bludgeoning",
+        "properties": [
+          "One-Handed"
+        ]
+      }
+    },
+    {
+      "name": "Shortbow",
+      "type": "Equipment",
+      "subtype": "Simple",
+      "properties": {
+        "name": "Shortbow",
+        "cost": 30,
+        "weight": 2,
+        "damage": "1d6",
+        "critical": "x3",
+        "range_increment": 60,
+        "type": "Piercing",
+        "properties": [
+          "Ranged",
+          "Two-Handed"
+        ]
+      }
+    },
+    {
+      "name": "Sling",
+      "type": "Equipment",
+      "subtype": "Simple",
+      "properties": {
+        "name": "Sling",
+        "cost": 0,
+        "weight": 0,
+        "damage": "1d4",
+        "critical": "x2",
+        "range_increment": 50,
+        "type": "Bludgeoning",
+        "properties": [
+          "Ranged"
+        ]
+      }
+    },
+    {
+      "name": "Longsword",
+      "type": "Equipment",
+      "subtype": "Martial",
+      "properties": {
+        "name": "Longsword",
+        "cost": 15,
+        "weight": 4,
+        "damage": "1d8",
+        "critical": "19-20/x2",
+        "type": "Slashing",
+        "properties": [
+          "One-Handed"
+        ]
+      }
+    },
+    {
+      "name": "Greatsword",
+      "type": "Equipment",
+      "subtype": "Martial",
+      "properties": {
+        "name": "Greatsword",
+        "cost": 50,
+        "weight": 8,
+        "damage": "2d6",
+        "critical": "19-20/x2",
+        "type": "Slashing",
+        "properties": [
+          "Two-Handed"
+        ]
+      }
+    },
+    {
+      "name": "Rapier",
+      "type": "Equipment",
+      "subtype": "Martial",
+      "properties": {
+        "name": "Rapier",
+        "cost": 20,
+        "weight": 2,
+        "damage": "1d6",
+        "critical": "18-20/x2",
+        "type": "Piercing",
+        "properties": [
+          "One-Handed",
+          "Finesse"
+        ]
+      }
+    },
+    {
+      "name": "Longbow",
+      "type": "Equipment",
+      "subtype": "Martial",
+      "properties": {
+        "name": "Longbow",
+        "cost": 75,
+        "weight": 3,
+        "damage": "1d8",
+        "critical": "x3",
+        "range_increment": 100,
+        "type": "Piercing",
+        "properties": [
+          "Ranged",
+          "Two-Handed"
+        ]
+      }
+    },
+    {
+      "name": "Halberd",
+      "type": "Equipment",
+      "subtype": "Martial",
+      "properties": {
+        "name": "Halberd",
+        "cost": 10,
+        "weight": 12,
+        "damage": "1d10",
+        "critical": "x3",
+        "type": "Slashing or Piercing",
+        "properties": [
+          "Two-Handed",
+          "Reach",
+          "Trip"
+        ]
+      }
+    },
+    {
+      "name": "Bastard Sword",
+      "type": "Equipment",
+      "subtype": "Exotic",
+      "properties": {
+        "name": "Bastard Sword",
+        "cost": 35,
+        "weight": 6,
+        "damage": "1d10 (one-handed) or 1d12 (two-handed)",
+        "critical": "19-20/x2",
+        "type": "Slashing",
+        "properties": [
+          "Versatile (Martial 1H / Exotic 2H)"
+        ]
+      }
+    },
+    {
+      "name": "Spiked Chain",
+      "type": "Equipment",
+      "subtype": "Exotic",
+      "properties": {
+        "name": "Spiked Chain",
+        "cost": 25,
+        "weight": 10,
+        "damage": "2d4",
+        "critical": "x2",
+        "type": "Piercing",
+        "properties": [
+          "Reach",
+          "Disarm",
+          "Trip"
+        ]
+      }
+    },
+    {
+      "name": "Kukri",
+      "type": "Equipment",
+      "subtype": "Exotic",
+      "properties": {
+        "name": "Kukri",
+        "cost": 8,
+        "weight": 2,
+        "damage": "1d4",
+        "critical": "18-20/x2",
+        "type": "Slashing",
+        "properties": [
+          "Light"
+        ]
+      }
+    },
+    {
+      "name": "Shuriken",
+      "type": "Equipment",
+      "subtype": "Exotic",
+      "properties": {
+        "name": "Shuriken",
+        "cost": 1,
+        "weight": 0.5,
+        "damage": "1d2",
+        "critical": "x2",
+        "range_increment": 10,
+        "type": "Piercing",
+        "properties": [
+          "Thrown",
+          "Ammunition"
+        ]
+      }
+    },
+    {
+      "name": "Padded Armor",
+      "type": "Equipment",
+      "subtype": "Light_Armor",
+      "properties": {
+        "name": "Padded Armor",
+        "cost": 5,
+        "weight": 10,
+        "ac_bonus": 1,
+        "max_dex": 8,
+        "check_penalty": 0,
+        "spell_failure": 5,
+        "speed_30ft": 30,
+        "speed_20ft": 20
+      }
+    },
+    {
+      "name": "Leather Armor",
+      "type": "Equipment",
+      "subtype": "Light_Armor",
+      "properties": {
+        "name": "Leather Armor",
+        "cost": 10,
+        "weight": 15,
+        "ac_bonus": 2,
+        "max_dex": 6,
+        "check_penalty": 0,
+        "spell_failure": 10,
+        "speed_30ft": 30,
+        "speed_20ft": 20
+      }
+    },
+    {
+      "name": "Studded Leather",
+      "type": "Equipment",
+      "subtype": "Light_Armor",
+      "properties": {
+        "name": "Studded Leather",
+        "cost": 25,
+        "weight": 20,
+        "ac_bonus": 3,
+        "max_dex": 5,
+        "check_penalty": -1,
+        "spell_failure": 15,
+        "speed_30ft": 30,
+        "speed_20ft": 20
+      }
+    },
+    {
+      "name": "Chain Shirt",
+      "type": "Equipment",
+      "subtype": "Light_Armor",
+      "properties": {
+        "name": "Chain Shirt",
+        "cost": 100,
+        "weight": 25,
+        "ac_bonus": 4,
+        "max_dex": 4,
+        "check_penalty": -2,
+        "spell_failure": 20,
+        "speed_30ft": 30,
+        "speed_20ft": 20
+      }
+    },
+    {
+      "name": "Hide Armor",
+      "type": "Equipment",
+      "subtype": "Medium_Armor",
+      "properties": {
+        "name": "Hide Armor",
+        "cost": 15,
+        "weight": 25,
+        "ac_bonus": 3,
+        "max_dex": 4,
+        "check_penalty": -3,
+        "spell_failure": 20,
+        "speed_30ft": 20,
+        "speed_20ft": 15
+      }
+    },
+    {
+      "name": "Scale Mail",
+      "type": "Equipment",
+      "subtype": "Medium_Armor",
+      "properties": {
+        "name": "Scale Mail",
+        "cost": 50,
+        "weight": 30,
+        "ac_bonus": 4,
+        "max_dex": 3,
+        "check_penalty": -4,
+        "spell_failure": 25,
+        "speed_30ft": 20,
+        "speed_20ft": 15
+      }
+    },
+    {
+      "name": "Chainmail",
+      "type": "Equipment",
+      "subtype": "Medium_Armor",
+      "properties": {
+        "name": "Chainmail",
+        "cost": 150,
+        "weight": 40,
+        "ac_bonus": 5,
+        "max_dex": 2,
+        "check_penalty": -5,
+        "spell_failure": 30,
+        "speed_30ft": 20,
+        "speed_20ft": 15
+      }
+    },
+    {
+      "name": "Breastplate",
+      "type": "Equipment",
+      "subtype": "Medium_Armor",
+      "properties": {
+        "name": "Breastplate",
+        "cost": 200,
+        "weight": 30,
+        "ac_bonus": 5,
+        "max_dex": 3,
+        "check_penalty": -4,
+        "spell_failure": 25,
+        "speed_30ft": 20,
+        "speed_20ft": 15
+      }
+    },
+    {
+      "name": "Splint Mail",
+      "type": "Equipment",
+      "subtype": "Heavy_Armor",
+      "properties": {
+        "name": "Splint Mail",
+        "cost": 200,
+        "weight": 45,
+        "ac_bonus": 6,
+        "max_dex": 0,
+        "check_penalty": -7,
+        "spell_failure": 40,
+        "speed_30ft": 20,
+        "speed_20ft": 15
+      }
+    },
+    {
+      "name": "Banded Mail",
+      "type": "Equipment",
+      "subtype": "Heavy_Armor",
+      "properties": {
+        "name": "Banded Mail",
+        "cost": 250,
+        "weight": 35,
+        "ac_bonus": 6,
+        "max_dex": 1,
+        "check_penalty": -6,
+        "spell_failure": 35,
+        "speed_30ft": 20,
+        "speed_20ft": 15
+      }
+    },
+    {
+      "name": "Half-Plate",
+      "type": "Equipment",
+      "subtype": "Heavy_Armor",
+      "properties": {
+        "name": "Half-Plate",
+        "cost": 600,
+        "weight": 50,
+        "ac_bonus": 7,
+        "max_dex": 0,
+        "check_penalty": -7,
+        "spell_failure": 40,
+        "speed_30ft": 20,
+        "speed_20ft": 15
+      }
+    },
+    {
+      "name": "Full Plate",
+      "type": "Equipment",
+      "subtype": "Heavy_Armor",
+      "properties": {
+        "name": "Full Plate",
+        "cost": 1500,
+        "weight": 50,
+        "ac_bonus": 8,
+        "max_dex": 1,
+        "check_penalty": -6,
+        "spell_failure": 35,
+        "speed_30ft": 20,
+        "speed_20ft": 15
+      }
+    },
+    {
+      "name": "Buckler",
+      "type": "Equipment",
+      "subtype": "Light",
+      "properties": {
+        "name": "Buckler",
+        "cost": 15,
+        "weight": 5,
+        "ac_bonus": 1,
+        "check_penalty": -1,
+        "spell_failure": 5
+      }
+    },
+    {
+      "name": "Light Wooden Shield",
+      "type": "Equipment",
+      "subtype": "Light",
+      "properties": {
+        "name": "Light Wooden Shield",
+        "cost": 3,
+        "weight": 5,
+        "ac_bonus": 1,
+        "check_penalty": -1,
+        "spell_failure": 5
+      }
+    },
+    {
+      "name": "Light Steel Shield",
+      "type": "Equipment",
+      "subtype": "Light",
+      "properties": {
+        "name": "Light Steel Shield",
+        "cost": 9,
+        "weight": 6,
+        "ac_bonus": 1,
+        "check_penalty": -1,
+        "spell_failure": 5
+      }
+    },
+    {
+      "name": "Heavy Wooden Shield",
+      "type": "Equipment",
+      "subtype": "Heavy",
+      "properties": {
+        "name": "Heavy Wooden Shield",
+        "cost": 7,
+        "weight": 10,
+        "ac_bonus": 2,
+        "check_penalty": -2,
+        "spell_failure": 15
+      }
+    },
+    {
+      "name": "Heavy Steel Shield",
+      "type": "Equipment",
+      "subtype": "Heavy",
+      "properties": {
+        "name": "Heavy Steel Shield",
+        "cost": 20,
+        "weight": 15,
+        "ac_bonus": 2,
+        "check_penalty": -2,
+        "spell_failure": 15
+      }
+    },
+    {
+      "name": "Tower Shield",
+      "type": "Equipment",
+      "subtype": "Heavy",
+      "properties": {
+        "name": "Tower Shield",
+        "cost": 30,
+        "weight": 45,
+        "ac_bonus": 4,
+        "check_penalty": -10,
+        "spell_failure": 50,
+        "special": "Can provide cover"
+      }
+    },
+    {
+      "name": "Backpack",
+      "type": "Equipment",
+      "subtype": "Containers",
+      "properties": {
+        "name": "Backpack",
+        "cost": 2,
+        "weight": 2,
+        "capacity": "1 cubic foot/30 lbs"
+      }
+    },
+    {
+      "name": "Bag of Holding (Type I)",
+      "type": "Equipment",
+      "subtype": "Containers",
+      "properties": {
+        "name": "Bag of Holding (Type I)",
+        "cost": 2500,
+        "weight": 15,
+        "capacity": "250 lbs or 30 cubic feet",
+        "description": "Magical bag that holds more than its size suggests."
+      }
+    },
+    {
+      "name": "Chest, Empty",
+      "type": "Equipment",
+      "subtype": "Containers",
+      "properties": {
+        "name": "Chest, Empty",
+        "cost": 2,
+        "weight": 25,
+        "capacity": "12 cubic feet"
+      }
+    },
+    {
+      "name": "Grappling Hook",
+      "type": "Equipment",
+      "subtype": "Climbing",
+      "properties": {
+        "name": "Grappling Hook",
+        "cost": 1,
+        "weight": 4
+      }
+    },
+    {
+      "name": "Rope, Silk (50 ft)",
+      "type": "Equipment",
+      "subtype": "Climbing",
+      "properties": {
+        "name": "Rope, Silk (50 ft)",
+        "cost": 10,
+        "weight": 5,
+        "strength": "300 lbs"
+      }
+    },
+    {
+      "name": "Torch",
+      "type": "Equipment",
+      "subtype": "Light_Sources",
+      "properties": {
+        "name": "Torch",
+        "cost": 0.01,
+        "weight": 1,
+        "duration": "1 hour",
+        "brightness": "20 ft radius"
+      }
+    },
+    {
+      "name": "Lantern, Bullseye",
+      "type": "Equipment",
+      "subtype": "Light_Sources",
+      "properties": {
+        "name": "Lantern, Bullseye",
+        "cost": 12,
+        "weight": 3,
+        "duration": "6 hours/pint of oil",
+        "brightness": "60-ft cone"
+      }
+    },
+    {
+      "name": "Sunrod",
+      "type": "Equipment",
+      "subtype": "Light_Sources",
+      "properties": {
+        "name": "Sunrod",
+        "cost": 2,
+        "weight": 1,
+        "duration": "6 hours",
+        "brightness": "30 ft radius (daylight)"
+      }
+    },
+    {
+      "name": "Trail Rations (per day)",
+      "type": "Equipment",
+      "subtype": "Food",
+      "properties": {
+        "name": "Trail Rations (per day)",
+        "cost": 0.5,
+        "weight": 1
+      }
+    },
+    {
+      "name": "Waterskin",
+      "type": "Equipment",
+      "subtype": "Food",
+      "properties": {
+        "name": "Waterskin",
+        "cost": 1,
+        "weight": 4,
+        "capacity": "1 gallon"
+      }
+    },
+    {
+      "name": "Tent",
+      "type": "Equipment",
+      "subtype": "Lodging",
+      "properties": {
+        "name": "Tent",
+        "cost": 10,
+        "weight": 20,
+        "capacity": "2 people"
+      }
+    },
+    {
+      "name": "Common Inn Stay (per night)",
+      "type": "Equipment",
+      "subtype": "Lodging",
+      "properties": {
+        "name": "Common Inn Stay (per night)",
+        "cost": 0.5,
+        "includes": "meal and shared room"
+      }
+    },
+    {
+      "name": "Chalk",
+      "type": "Equipment",
+      "subtype": "Miscellaneous",
+      "properties": {
+        "name": "Chalk",
+        "cost": 0.01,
+        "weight": 0
+      }
+    },
+    {
+      "name": "Crowbar",
+      "type": "Equipment",
+      "subtype": "Miscellaneous",
+      "properties": {
+        "name": "Crowbar",
+        "cost": 2,
+        "weight": 5,
+        "bonus": "+2 to Strength checks for opening doors"
+      }
+    },
+    {
+      "name": "Small Steel Mirror",
+      "type": "Equipment",
+      "subtype": "Miscellaneous",
+      "properties": {
+        "name": "Small Steel Mirror",
+        "cost": 10,
+        "weight": 0.5
+      }
+    },
+    {
+      "name": "Thieves' Tools",
+      "type": "Equipment",
+      "subtype": "Tools_and_Kits",
+      "properties": {
+        "name": "Thieves' Tools",
+        "cost": 30,
+        "weight": 2,
+        "bonus": "+2 Disable Device/Open Lock"
+      }
+    },
+    {
+      "name": "Disguise Kit",
+      "type": "Equipment",
+      "subtype": "Tools_and_Kits",
+      "properties": {
+        "name": "Disguise Kit",
+        "cost": 50,
+        "weight": 8,
+        "bonus": "+2 Disguise checks"
+      }
+    },
+    {
+      "name": "Healer's Kit",
+      "type": "Equipment",
+      "subtype": "Tools_and_Kits",
+      "properties": {
+        "name": "Healer's Kit",
+        "cost": 50,
+        "weight": 1,
+        "uses": 10,
+        "bonus": "+2 Heal checks"
+      }
+    },
+    {
+      "name": "Artisan's Tools",
+      "type": "Equipment",
+      "subtype": "Tools_and_Kits",
+      "properties": {
+        "name": "Artisan's Tools",
+        "cost": 5,
+        "weight": 5,
+        "description": "Required for Craft checks"
+      }
+    },
+    {
+      "name": "Cloak of Resistance +1",
+      "type": "Equipment",
+      "subtype": "Magic_Clothing",
+      "properties": {
+        "name": "Cloak of Resistance +1",
+        "cost": 1000,
+        "weight": 1,
+        "bonus": "+1 all saves",
+        "slot": "Shoulders"
+      }
+    },
+    {
+      "name": "Boots of Striding and Springing",
+      "type": "Equipment",
+      "subtype": "Magic_Clothing",
+      "properties": {
+        "name": "Boots of Striding and Springing",
+        "cost": 5500,
+        "weight": 1,
+        "effects": [
+          "+10 ft enhancement to speed",
+          "+5 competence to Jump"
+        ],
+        "slot": "Feet"
+      }
+    },
+    {
+      "name": "Noble's Outfit",
+      "type": "Equipment",
+      "subtype": "Nonmagical",
+      "properties": {
+        "name": "Noble's Outfit",
+        "cost": 75,
+        "weight": 10
+      }
+    },
+    {
+      "name": "Traveler's Outfit",
+      "type": "Equipment",
+      "subtype": "Nonmagical",
+      "properties": {
+        "name": "Traveler's Outfit",
+        "cost": 1,
+        "weight": 5
+      }
+    },
+    {
+      "name": "Signet Ring",
+      "type": "Equipment",
+      "subtype": "Jewelry",
+      "properties": {
+        "name": "Signet Ring",
+        "cost": 5,
+        "weight": 0
+      }
+    },
+    {
+      "name": "Silver Necklace",
+      "type": "Equipment",
+      "subtype": "Jewelry",
+      "properties": {
+        "name": "Silver Necklace",
+        "cost": 25,
+        "weight": 0.5
+      }
+    },
+    {
+      "name": "Potion of Cure Light Wounds",
+      "type": "Equipment",
+      "subtype": "Potions",
+      "properties": {
+        "name": "Potion of Cure Light Wounds",
+        "cost": 50,
+        "weight": 0.1,
+        "effect": "1d8+1 hp",
+        "cl": 1
+      }
+    },
+    {
+      "name": "Potion of Invisibility",
+      "type": "Equipment",
+      "subtype": "Potions",
+      "properties": {
+        "name": "Potion of Invisibility",
+        "cost": 300,
+        "weight": 0.1,
+        "effect": "Invisibility for 3 min",
+        "cl": 3
+      }
+    },
+    {
+      "name": "Scroll of Identify",
+      "type": "Equipment",
+      "subtype": "Scrolls",
+      "properties": {
+        "name": "Scroll of Identify",
+        "cost": 125,
+        "weight": 0.1,
+        "cl": 1,
+        "spell_level": 1
+      }
+    },
+    {
+      "name": "Scroll of Fireball (CL 5)",
+      "type": "Equipment",
+      "subtype": "Scrolls",
+      "properties": {
+        "name": "Scroll of Fireball (CL 5)",
+        "cost": 375,
+        "weight": 0.1,
+        "cl": 5,
+        "spell_level": 3
+      }
+    },
+    {
+      "name": "Wand of Magic Missile (CL 1)",
+      "type": "Equipment",
+      "subtype": "Wands",
+      "properties": {
+        "name": "Wand of Magic Missile (CL 1)",
+        "cost": 750,
+        "weight": 0.1,
+        "charges": 50,
+        "effect": "1d4+1 force damage",
+        "cl": 1,
+        "spell_level": 1
+      }
+    },
+    {
+      "name": "Wand of Cure Light Wounds (CL 1)",
+      "type": "Equipment",
+      "subtype": "Wands",
+      "properties": {
+        "name": "Wand of Cure Light Wounds (CL 1)",
+        "cost": 750,
+        "weight": 0.1,
+        "charges": 50,
+        "effect": "1d8+1 hp",
+        "cl": 1,
+        "spell_level": 1
+      }
+    },
+    {
+      "name": "Lesser Metamagic Rod (Extend)",
+      "type": "Equipment",
+      "subtype": "Rods",
+      "properties": {
+        "name": "Lesser Metamagic Rod (Extend)",
+        "cost": 3000,
+        "weight": 1,
+        "effect": "Extend 1st-3rd level spells 3/day",
+        "cl": 9
+      }
+    },
+    {
+      "name": "Ring of Protection +1",
+      "type": "Equipment",
+      "subtype": "Rings",
+      "properties": {
+        "name": "Ring of Protection +1",
+        "cost": 2000,
+        "weight": 0.1,
+        "effect": "+1 deflection AC",
+        "cl": 5
+      }
+    },
+    {
+      "name": "Ring of Invisibility",
+      "type": "Equipment",
+      "subtype": "Rings",
+      "properties": {
+        "name": "Ring of Invisibility",
+        "cost": 20000,
+        "weight": 0.1,
+        "effect": "At-will invisibility",
+        "cl": 7
+      }
+    },
+    {
+      "name": "Staff of Fire",
+      "type": "Equipment",
+      "subtype": "Staves",
+      "properties": {
+        "name": "Staff of Fire",
+        "cost": 17750,
+        "weight": 5,
+        "charges": 50,
+        "spells": {
+          "Burning_Hands": 1,
+          "Fireball": 3,
+          "Wall_of_Fire": 4
+        },
+        "cl": 8
+      }
+    },
+    {
+      "name": "Handy Haversack",
+      "type": "Equipment",
+      "subtype": "Wondrous_Items",
+      "properties": {
+        "name": "Handy Haversack",
+        "cost": 2000,
+        "weight": 5,
+        "description": "Retrieves items as move action",
+        "cl": 5
+      }
+    },
+    {
+      "name": "Acid Flask",
+      "type": "Equipment",
+      "subtype": "Weapons",
+      "properties": {
+        "name": "Acid Flask",
+        "cost": 10,
+        "weight": 1,
+        "damage": "1d6 acid",
+        "range": "10 ft splash"
+      }
+    },
+    {
+      "name": "Alchemist's Fire",
+      "type": "Equipment",
+      "subtype": "Weapons",
+      "properties": {
+        "name": "Alchemist's Fire",
+        "cost": 20,
+        "weight": 1,
+        "damage": "1d6 fire",
+        "range": "10 ft splash",
+        "special": "Additional 1d6 next round unless extinguished (DC 15)"
+      }
+    },
+    {
+      "name": "Liquid Ice",
+      "type": "Equipment",
+      "subtype": "Weapons",
+      "properties": {
+        "name": "Liquid Ice",
+        "cost": 40,
+        "weight": 1,
+        "damage": "1d6 cold",
+        "range": "10 ft splash",
+        "special": "Fortitude DC 15 or slowed 1 round"
+      }
+    },
+    {
+      "name": "Smokestick",
+      "type": "Equipment",
+      "subtype": "Utility",
+      "properties": {
+        "name": "Smokestick",
+        "cost": 20,
+        "weight": 0.5,
+        "effect": "10-ft cube of smoke for 1 minute"
+      }
+    },
+    {
+      "name": "Tanglefoot Bag",
+      "type": "Equipment",
+      "subtype": "Utility",
+      "properties": {
+        "name": "Tanglefoot Bag",
+        "cost": 50,
+        "weight": 4,
+        "range": "10 ft",
+        "effect": "Entangles target (Reflex DC 15)"
+      }
+    },
+    {
+      "name": "Thunderstone",
+      "type": "Equipment",
+      "subtype": "Utility",
+      "properties": {
+        "name": "Thunderstone",
+        "cost": 30,
+        "weight": 1,
+        "range": "20 ft",
+        "effect": "Deafens in 10-ft radius (Fort DC 15)"
+      }
+    },
+    {
+      "name": "Antitoxin",
+      "type": "Equipment",
+      "subtype": "Medical",
+      "properties": {
+        "name": "Antitoxin",
+        "cost": 50,
+        "weight": 0.1,
+        "effect": "+5 vs poison for 1 hour"
+      }
+    },
+    {
+      "name": "Healing Salve",
+      "type": "Equipment",
+      "subtype": "Medical",
+      "properties": {
+        "name": "Healing Salve",
+        "cost": 25,
+        "weight": 0.5,
+        "effect": "1d8+1 hp (3 uses)"
+      }
+    },
+    {
+      "name": "Light Horse",
+      "type": "Equipment",
+      "subtype": "Land_Mounts",
+      "properties": {
+        "name": "Light Horse",
+        "cost": 75,
+        "speed": "60 ft",
+        "capacity": "300 lbs"
+      }
+    },
+    {
+      "name": "Heavy Horse",
+      "type": "Equipment",
+      "subtype": "Land_Mounts",
+      "properties": {
+        "name": "Heavy Horse",
+        "cost": 200,
+        "speed": "50 ft",
+        "capacity": "600 lbs"
+      }
+    },
+    {
+      "name": "Pony",
+      "type": "Equipment",
+      "subtype": "Land_Mounts",
+      "properties": {
+        "name": "Pony",
+        "cost": 30,
+        "speed": "40 ft",
+        "capacity": "225 lbs"
+      }
+    },
+    {
+      "name": "Cart",
+      "type": "Equipment",
+      "subtype": "Vehicles",
+      "properties": {
+        "name": "Cart",
+        "cost": 15,
+        "weight": 200,
+        "capacity": "1200 lbs",
+        "drawn_by": "1 horse"
+      }
+    },
+    {
+      "name": "Carriage",
+      "type": "Equipment",
+      "subtype": "Vehicles",
+      "properties": {
+        "name": "Carriage",
+        "cost": 100,
+        "weight": 600,
+        "capacity": "4 passengers",
+        "drawn_by": "2 horses"
+      }
+    },
+    {
+      "name": "Rowboat",
+      "type": "Equipment",
+      "subtype": "Vehicles",
+      "properties": {
+        "name": "Rowboat",
+        "cost": 50,
+        "capacity": "3 passengers"
+      }
+    },
+    {
+      "name": "Sailing Ship",
+      "type": "Equipment",
+      "subtype": "Vehicles",
+      "properties": {
+        "name": "Sailing Ship",
+        "cost": 10000,
+        "crew": 20,
+        "capacity": "150 tons cargo"
+      }
+    },
+    {
+      "name": "Bit and Bridle",
+      "type": "Equipment",
+      "subtype": "Tack_and_Harness",
+      "properties": {
+        "name": "Bit and Bridle",
+        "cost": 2,
+        "weight": 1
+      }
+    },
+    {
+      "name": "Riding Saddle",
+      "type": "Equipment",
+      "subtype": "Tack_and_Harness",
+      "properties": {
+        "name": "Riding Saddle",
+        "cost": 10,
+        "weight": 25
+      }
+    },
+    {
+      "name": "Adamantine",
+      "type": "Equipment",
+      "subtype": "Metals",
+      "properties": {
+        "name": "Adamantine",
+        "cost_modifier": 3000,
+        "weight_modifier": 1,
+        "hardness": 20,
+        "hp_increase": "+2 per inch",
+        "effect": "Bypasses hardness <20, ignores DR/adamantine"
+      }
+    },
+    {
+      "name": "Mithral",
+      "type": "Equipment",
+      "subtype": "Metals",
+      "properties": {
+        "name": "Mithral",
+        "cost_modifier": 1000,
+        "weight_modifier": 0.5,
+        "effect": "Armor counts as 1 category lighter, +2 max Dex"
+      }
+    },
+    {
+      "name": "Darkwood",
+      "type": "Equipment",
+      "subtype": "Metals",
+      "properties": {
+        "name": "Darkwood",
+        "cost_modifier": 500,
+        "weight_modifier": 0.5,
+        "effect": "Half weight for wooden items"
+      }
+    },
+    {
+      "name": "Alchemical Silver",
+      "type": "Equipment",
+      "subtype": "Composites",
+      "properties": {
+        "name": "Alchemical Silver",
+        "cost_modifier": 20,
+        "effect": "Effective vs lycanthropes, -1 damage"
+      }
+    },
+    {
+      "name": "Cold Iron",
+      "type": "Equipment",
+      "subtype": "Composites",
+      "properties": {
+        "name": "Cold Iron",
+        "cost_modifier": 200,
+        "effect": "Effective vs fey and demons"
+      }
+    },
+    {
+      "name": "Dragonhide",
+      "type": "Equipment",
+      "subtype": "Exotic",
+      "properties": {
+        "name": "Dragonhide",
+        "cost_modifier": 2000,
+        "effect": "Resistance 5 to matching energy type"
+      }
+    },
+    {
+      "name": "Byeshk",
+      "type": "Equipment",
+      "subtype": "Exotic",
+      "properties": {
+        "name": "Byeshk",
+        "cost_modifier": 800,
+        "effect": "Effective vs daemons and aberrations"
+      }
+    }
+  ]
+}

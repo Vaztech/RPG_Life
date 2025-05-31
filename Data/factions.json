@@ -1,0 +1,212 @@
+[
+  {
+    "name": "The Crimson Hand",
+    "description": "A brutal mercenary guild known for handling dirty work across the frontier.",
+    "style": "violent",
+    "tone": "aggressive",
+    "quest_types": ["assassination", "intimidation", "raids"]
+  },
+  {
+    "name": "Order of the Bloom",
+    "description": "A peaceful group of druids and herbalists who value life, growth, and harmony.",
+    "style": "wholesome",
+    "tone": "hopeful",
+    "quest_types": ["healing", "escort", "gathering"]
+  },
+  {
+    "name": "Veil Syndicate",
+    "description": "A shadowy network of spies and information brokers.",
+    "style": "mysterious",
+    "tone": "suspicious",
+    "quest_types": ["theft", "surveillance", "deception"]
+  },
+  {
+    "name": "Sunspire Legion",
+    "description": "A militaristic order sworn to uphold justice and defend the realm.",
+    "style": "noble",
+    "tone": "serious",
+    "quest_types": ["defense", "investigation", "arrest"]
+  },
+  {
+    "name": "Neutral",
+    "description": "Unaffiliated individuals or local townsfolk with ordinary requests.",
+    "style": "generic",
+    "tone": "neutral",
+    "quest_types": ["delivery", "repair", "recovery"]
+  },
+  {
+    "name": "Cult of the Shattered Veil",
+    "description": "A fanatical group worshiping a forgotten deity, seeking to tear the fabric of reality to bring their god back.",
+    "style": "occult",
+    "tone": "desperate",
+    "quest_types": ["ritual_disruption", "artifact_retrieval", "banishment"]
+  },
+  {
+    "name": "Ironforge Artificers",
+    "description": "A guild of master craftsmen and inventors who create mechanical wonders and clockwork constructs.",
+    "style": "industrial",
+    "tone": "pragmatic",
+    "quest_types": ["resource_gathering", "construct_repair", "sabotage"]
+  },
+  {
+    "name": "Skyward Corsairs",
+    "description": "A band of sky pirates who sail airships across the heavens, plundering ancient floating ruins.",
+    "style": "adventurous",
+    "tone": "reckless",
+    "quest_types": ["sky_heist", "aerial_combat", "ruin_exploration"]
+  },
+  {
+    "name": "Frostborn Clan",
+    "description": "A nomadic tribe of ice-dwelling warriors who thrive in the harshest frozen wastes.",
+    "style": "rugged",
+    "tone": "stoic",
+    "quest_types": ["survival", "hunting", "ice_forging"]
+  },
+  {
+    "name": "Shadowsong Bards",
+    "description": "A secretive troupe of musicians who weave magic into their songs to influence minds and uncover secrets.",
+    "style": "enigmatic",
+    "tone": "melancholic",
+    "quest_types": ["performance", "espionage", "enchantment"]
+  },
+  {
+    "name": "Eclipse Forgers",
+    "description": "A reclusive order of blacksmiths who craft legendary weapons using celestial metals during solar eclipses.",
+    "style": "mythical",
+    "tone": "reverent",
+    "quest_types": ["celestial_harvesting", "forge_defense", "weapon_crafting"]
+  },
+  {
+    "name": "Ashen Covenant",
+    "description": "A group of fire-worshiping monks who harness volcanic energies for purification rituals.",
+    "style": "fiery",
+    "tone": "zealous",
+    "quest_types": ["fire_ritual", "volcanic_expedition", "purification"]
+  },
+  {
+    "name": "Whispering Cabal",
+    "description": "A network of necromancers and death priests who commune with spirits to gain forbidden knowledge.",
+    "style": "macabre",
+    "tone": "somber",
+    "quest_types": ["necromancy", "spirit_summoning", "graveyard_investigation"]
+  },
+  {
+    "name": "Tidecallers of Mirrowen",
+    "description": "A coastal sect of water mages who protect the oceans and negotiate with merfolk.",
+    "style": "aquatic",
+    "tone": "calm",
+    "quest_types": ["ocean_rescue", "merfolk_diplomacy", "tidal_control"]
+  },
+  {
+    "name": "Starwoven Seers",
+    "description": "A mystical order of astrologers who read the stars to predict and alter fate.",
+    "style": "cosmic",
+    "tone": "mystical",
+    "quest_types": ["stargazing", "fate_altering", "celestial_alignment"]
+  },
+  {
+    "name": "Mecha Maidens of Neo-Sakura",
+    "description": "A futuristic sisterhood of android maids inspired by ancient traditions, serving a mysterious AI overlord in a neon-lit forest shrine.",
+    "style": "cyberpunk_anime",
+    "tone": "cheerful",
+    "quest_types": ["tech_repair", "data_retrieval", "maid_service"]
+  },
+  {
+    "name": "Pixel Knights of Retrogrid",
+    "description": "A glitchy order of 8-bit warriors who escaped a forgotten arcade game, now fighting to preserve their digital realm in the real world.",
+    "style": "retro_game",
+    "tone": "nostalgic",
+    "quest_types": ["glitch_fixing", "digital_combat", "code_collection"]
+  },
+  {
+    "name": "Dreamweavers of the Slumbering Void",
+    "description": "A collective of ethereal beings who craft dreamscapes to trap the minds of the living, inspired by surreal anime dream worlds.",
+    "style": "surreal",
+    "tone": "haunting",
+    "quest_types": ["dream_escape", "nightmare_banishment", "dreamcrafting"]
+  },
+  {
+    "name": "Gourmet Guild of the Endless Feast",
+    "description": "A faction of eccentric chefs obsessed with cooking magical dishes, drawing from food-based anime like 'Food Wars', but with a monstrous twist.",
+    "style": "culinary",
+    "tone": "passionate",
+    "quest_types": ["ingredient_hunting", "cooking_challenge", "feast_preparation"]
+  },
+  {
+    "name": "Chrono Reapers of the Time Rift",
+    "description": "A guild of time-traveling assassins who hunt anomalies across timelines, inspired by time-bending video games like 'Chrono Trigger'.",
+    "style": "temporal",
+    "tone": "grim",
+    "quest_types": ["time_hunt", "rift_sealing", "anomaly_correction"]
+  },
+  {
+    "name": "Kawaii Beasts of the Plushie Kingdom",
+    "description": "A faction of adorable, sentient plush toys who rule a saccharine realm but harbor a dark secret, inspired by cute anime mascots gone wrong.",
+    "style": "cute_but_creepy",
+    "tone": "innocent",
+    "quest_types": ["plushie_rescue", "dark_secret_uncovery", "toy_crafting"]
+  },
+  {
+    "name": "Neon Shoguns of the Electric Wasteland",
+    "description": "A cyber-samurai clan wielding plasma katanas in a post-apocalyptic desert, inspired by anime like 'Samurai Champloo' mixed with 'Cyberpunk 2077'.",
+    "style": "cyber_samurai",
+    "tone": "defiant",
+    "quest_types": ["duel_challenge", "tech_salvage", "wasteland_patrol"]
+  },
+  {
+    "name": "Spirit Tamers of the Yokai Carnival",
+    "description": "A traveling circus of yokai hunters who tame mischievous spirits for performances, drawing from anime like 'Natsume’s Book of Friends'.",
+    "style": "carnival",
+    "tone": "playful",
+    "quest_types": ["yokai_taming", "carnival_performance", "spirit_hunt"]
+  },
+  {
+    "name": "Arcane Gamers of the Infinite Dungeon",
+    "description": "A faction of adventurers trapped in a magical MMORPG, inspired by 'Sword Art Online', but with a dungeon-crawling twist.",
+    "style": "virtual_reality",
+    "tone": "excitable",
+    "quest_types": ["dungeon_raid", "gear_farming", "boss_battle"]
+  },
+  {
+    "name": "Glowcap Alchemists",
+    "description": "A group of mushroomfolk alchemists who brew potions from glowing fungi, living in a bioluminescent swamp.",
+    "style": "fungal",
+    "tone": "quirky",
+    "quest_types": ["potion_brewing", "mushroom_harvesting", "swamp_exploration"]
+  },
+  {
+    "name": "Echoes of the Singing Blade",
+    "description": "A faction of sword spirits bound to sentient weapons that sing haunting melodies, inspired by anime weapon spirits like in 'Bleach'.",
+    "style": "spiritual_weaponry",
+    "tone": "elegiac",
+    "quest_types": ["blade_binding", "song_collection", "spirit_combat"]
+  },
+  {
+    "name": "Candy Crafters of Sugarspire",
+    "description": "A faction of candy golems and confectioners who build edible fortresses but are at war with sugar-hungry monsters.",
+    "style": "saccharine",
+    "tone": "sweet",
+    "quest_types": ["candy_defense", "sugar_harvesting", "golem_crafting"]
+  },
+  {
+    "name": "Void Sentai Rangers",
+    "description": "A team of color-coded heroes who fight cosmic invaders with transforming mechs, inspired by 'Power Rangers' and anime sentai teams.",
+    "style": "superhero",
+    "tone": "heroic",
+    "quest_types": ["mech_combat", "invasion_defense", "team_rescue"]
+  },
+  {
+    "name": "Paperfold Sages",
+    "description": "A sect of origami monks who bring paper creations to life with enchanted ink, inspired by games like 'Paper Mario'.",
+    "style": "papercraft",
+    "tone": "serene",
+    "quest_types": ["origami_crafting", "ink_gathering", "paper_animation"]
+  },
+  {
+    "name": "Phantom Train Conductors",
+    "description": "A ghostly faction operating a spectral train that travels between the living world and the afterlife, inspired by 'Final Fantasy VI'.",
+    "style": "ghostly",
+    "tone": "eerie",
+    "quest_types": ["ghost_passage", "train_repair", "soul_delivery"]
+  }
+]

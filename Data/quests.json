@@ -1,0 +1,553 @@
+[
+  {
+    "id": "rescue_miner_001",
+    "title": "Rescue the Trapped Miner",
+    "description": "A miner is trapped in the cave near Ironhollow. Free him.",
+    "giver": "npc_blacksmith",
+    "location": "Ironhollow Caverns",
+    "objective_type": "interact",
+    "target": "npc_miner",
+    "reward": {
+      "gold": 50,
+      "items": ["healing_potion"]
+    }
+  },
+  {
+    "id": "goblin_raid_002",
+    "title": "Defend Against Goblin Raiders",
+    "description": "Goblins have been attacking merchant caravans near the Old Forest Road. Eliminate 5 goblins.",
+    "giver": "npc_town_guard",
+    "location": "Old Forest Road",
+    "objective_type": "kill",
+    "target": "goblin_raider",
+    "target_amount": 5,
+    "reward": {
+      "gold": 75,
+      "items": ["iron_sword"]
+    }
+  },
+  {
+    "id": "herbal_help_003",
+    "title": "Herbalist's Request",
+    "description": "The local herbalist needs 10 Moonpetal flowers for her remedies.",
+    "giver": "npc_herbalist",
+    "location": "Whispering Glade",
+    "objective_type": "collect",
+    "target": "moonpetal_flower",
+    "target_amount": 10,
+    "reward": {
+      "gold": 30,
+      "items": ["antidote_potion", "stamina_potion"]
+    }
+  },
+  {
+    "id": "lost_relic_004",
+    "title": "The Lost Temple Relic",
+    "description": "Recover the ancient relic from the abandoned temple ruins.",
+    "giver": "npc_historian",
+    "location": "Sunken Temple Ruins",
+    "objective_type": "retrieve",
+    "target": "temple_relic",
+    "reward": {
+      "gold": 120,
+      "items": ["ancient_amulet"]
+    }
+  },
+  {
+    "id": "wolf_problem_005",
+    "title": "Wolf Infestation",
+    "description": "Hunt down 8 dire wolves terrorizing local farms.",
+    "giver": "npc_farmer",
+    "location": "Greenfield Farms",
+    "objective_type": "kill",
+    "target": "dire_wolf",
+    "target_amount": 8,
+    "reward": {
+      "gold": 90,
+      "items": ["wolf_pelt_cloak"]
+    }
+  },
+  {
+    "id": "blacksmith_delivery_006",
+    "title": "Blacksmith's Delivery",
+    "description": "Deliver forged weapons to the barracks in Stonekeep.",
+    "giver": "npc_blacksmith",
+    "location": "Stonekeep Barracks",
+    "objective_type": "deliver",
+    "target": "weapon_crate",
+    "reward": {
+      "gold": 40,
+      "items": ["reinforced_gloves"]
+    }
+  },
+  {
+    "id": "bandit_camp_007",
+    "title": "Clear the Bandit Camp",
+    "description": "Eliminate the bandit leader and his followers at their hideout.",
+    "giver": "npc_mayor",
+    "location": "Crimson Canyon",
+    "objective_type": "kill",
+    "target": "bandit_leader",
+    "target_amount": 1,
+    "additional_targets": ["bandit_thug"],
+    "reward": {
+      "gold": 150,
+      "items": ["bandit_bounty_writ"]
+    }
+  },
+  {
+    "id": "enchanted_ore_008",
+    "title": "Mysterious Ore Samples",
+    "description": "Collect 5 pieces of glowing ore from the Deep Mines.",
+    "giver": "npc_miner",
+    "location": "Deep Mines",
+    "objective_type": "collect",
+    "target": "glowing_ore",
+    "target_amount": 5,
+    "reward": {
+      "gold": 65,
+      "items": ["magic_resistance_ring"]
+    }
+  },
+  {
+    "id": "haunted_manor_009",
+    "title": "The Haunted Manor",
+    "description": "Investigate supernatural activity at Blackwood Manor.",
+    "giver": "npc_priest",
+    "location": "Blackwood Manor",
+    "objective_type": "investigate",
+    "target": "haunting_source",
+    "reward": {
+      "gold": 200,
+      "items": ["holy_symbol", "blessed_water"]
+    }
+  },
+  {
+    "id": "fishing_contest_010",
+    "title": "Annual Fishing Contest",
+    "description": "Catch the legendary Golden Scale fish in Lake Mirrowen.",
+    "giver": "npc_fisherman",
+    "location": "Lake Mirrowen",
+    "objective_type": "collect",
+    "target": "golden_scale_fish",
+    "reward": {
+      "gold": 100,
+      "items": ["master_fishing_rod"]
+    }
+  },
+  {
+    "id": "arcane_research_011",
+    "title": "Arcane Research Materials",
+    "description": "Gather 3 rare spell components for the mage's research.",
+    "giver": "npc_mage",
+    "location": "Various",
+    "objective_type": "collect",
+    "target": "spell_component",
+    "target_amount": 3,
+    "reward": {
+      "gold": 80,
+      "items": ["minor_mana_potion", "scroll_of_teleportation"]
+    }
+  },
+  {
+    "id": "missing_caravan_012",
+    "title": "Missing Merchant Caravan",
+    "description": "Find the missing caravan and recover any goods.",
+    "giver": "npc_merchant",
+    "location": "Dustwind Pass",
+    "objective_type": "investigate",
+    "target": "caravan_remains",
+    "reward": {
+      "gold": 110,
+      "items": ["merchant_satchel"]
+    }
+  },
+  {
+    "id": "dragon_sightings_013",
+    "title": "Dragon Sightings",
+    "description": "Investigate dragon activity in the Frostpeak Mountains.",
+    "giver": "npc_ranger",
+    "location": "Frostpeak Mountains",
+    "objective_type": "investigate",
+    "target": "dragon_evidence",
+    "reward": {
+      "gold": 250,
+      "items": ["dragonscale_armor"]
+    }
+  },
+  {
+    "id": "alchemy_experiment_014",
+    "title": "Dangerous Alchemy Experiment",
+    "description": "Stop the rogue alchemist's experiments in the sewers.",
+    "giver": "npc_guard_captain",
+    "location": "City Sewers",
+    "objective_type": "kill",
+    "target": "rogue_alchemist",
+    "reward": {
+      "gold": 180,
+      "items": ["potion_belt"]
+    }
+  },
+  {
+    "id": "ancient_library_015",
+    "title": "Recover Ancient Tomes",
+    "description": "Retrieve 4 ancient tomes from the ruined library.",
+    "giver": "npc_scholar",
+    "location": "Ruins of Eldervale",
+    "objective_type": "collect",
+    "target": "ancient_tome",
+    "target_amount": 4,
+    "reward": {
+      "gold": 95,
+      "items": ["tome_of_wisdom"]
+    }
+  },
+  {
+    "id": "cursed_artifact_016",
+    "title": "The Cursed Artifact",
+    "description": "Retrieve and destroy a cursed idol from a tribal shrine.",
+    "giver": "npc_shaman",
+    "location": "Jungle of Varethis",
+    "objective_type": "destroy",
+    "target": "cursed_idol",
+    "reward": {
+      "gold": 140,
+      "items": ["warding_talisman"]
+    }
+  },
+  {
+    "id": "royal_heirloom_017",
+    "title": "Stolen Royal Heirloom",
+    "description": "Track down a stolen royal necklace hidden in a thieves' den.",
+    "giver": "npc_noble",
+    "location": "Shadowfang Den",
+    "objective_type": "retrieve",
+    "target": "royal_necklace",
+    "reward": {
+      "gold": 300,
+      "items": ["noble_cloak"]
+    }
+  },
+  {
+    "id": "bridge_repair_018",
+    "title": "Bridge Repair Materials",
+    "description": "Gather 20 lumber and 10 iron ingots for bridge repairs.",
+    "giver": "npc_carpenter",
+    "location": "Lumbermill & Forge",
+    "objective_type": "collect",
+    "target": ["lumber", "iron_ingot"],
+    "target_amount": [20, 10],
+    "reward": {
+      "gold": 60,
+      "items": ["toolkit"]
+    }
+  },
+  {
+    "id": "spy_infiltrate_019",
+    "title": "Infiltrate the Spy Network",
+    "description": "Pose as a mercenary to uncover a spy in the enemy camp.",
+    "giver": "npc_spymaster",
+    "location": "Outpost Karrath",
+    "objective_type": "infiltrate",
+    "target": "spy_mastermind",
+    "reward": {
+      "gold": 220,
+      "items": ["cloak_of_shadows"]
+    }
+  },
+  {
+    "id": "undead_rising_020",
+    "title": "Undead Rising",
+    "description": "Stop the necromancer raising skeletons in the graveyard.",
+    "giver": "npc_priest",
+    "location": "Hallowmere Cemetery",
+    "objective_type": "kill",
+    "target": "necromancer",
+    "additional_targets": ["skeleton_warrior"],
+    "reward": {
+      "gold": 170,
+      "items": ["silvered_sword"]
+    }
+  },
+  {
+    "id": "pirate_treasure_021",
+    "title": "Lost Pirate Treasure",
+    "description": "Find the treasure map leading to Captain Bloodbeard's hoard.",
+    "giver": "npc_tavern_keeper",
+    "location": "Smuggler's Cove",
+    "objective_type": "retrieve",
+    "target": "treasure_map",
+    "reward": {
+      "gold": 500,
+      "items": ["golden_compass"]
+    }
+  },
+  {
+    "id": "beast_arena_022",
+    "title": "Prove Your Worth in the Arena",
+    "description": "Defeat 3 arena champions to earn glory.",
+    "giver": "npc_arena_master",
+    "location": "Grand Arena",
+    "objective_type": "kill",
+    "target": ["arena_champion"],
+    "target_amount": 3,
+    "reward": {
+      "gold": 400,
+      "items": ["champion_medallion"]
+    }
+  },
+  {
+    "id": "mushroom_foray_023",
+    "title": "Mushroom Foray",
+    "description": "Collect 15 glowing mushrooms from the Bioluminescent Caves.",
+    "giver": "npc_alchemist",
+    "location": "Bioluminescent Caves",
+    "objective_type": "collect",
+    "target": "glowing_mushroom",
+    "target_amount": 15,
+    "reward": {
+      "gold": 55,
+      "items": ["elixir_of_night_vision"]
+    }
+  },
+  {
+    "id": "clockwork_sabotage_024",
+    "title": "Sabotage the Clockwork Army",
+    "description": "Disable 6 clockwork soldiers in the Mechanist's Foundry.",
+    "giver": "npc_rebel_leader",
+    "location": "Mechanist's Foundry",
+    "objective_type": "disable",
+    "target": "clockwork_soldier",
+    "target_amount": 6,
+    "reward": {
+      "gold": 210,
+      "items": ["gear_key"]
+    }
+  },
+  {
+    "id": "celestial_alignment_025",
+    "title": "Celestial Alignment",
+    "description": "Activate 4 ancient obelisks before the lunar eclipse ends.",
+    "giver": "npc_astronomer",
+    "location": "Starcaller Plateau",
+    "objective_type": "activate",
+    "target": "ancient_obelisk",
+    "target_amount": 4,
+    "reward": {
+      "gold": 180,
+      "items": ["starstone_pendant"]
+    }
+  },
+  {
+    "id": "crystal_resonance_026",
+    "title": "Crystal Resonance",
+    "description": "Tune 5 harmonic crystals in the Singing Caverns.",
+    "giver": "npc_musician",
+    "location": "Singing Caverns",
+    "objective_type": "interact",
+    "target": "harmonic_crystal",
+    "target_amount": 5,
+    "reward": {
+      "gold": 75,
+      "items": ["lute_of_harmony"]
+    }
+  },
+  {
+    "id": "feywild_gate_027",
+    "title": "Close the Feywild Gate",
+    "description": "Seal the rogue portal leaking magical creatures into the forest.",
+    "giver": "npc_druid",
+    "location": "Elderwood Grove",
+    "objective_type": "seal",
+    "target": "feywild_portal",
+    "reward": {
+      "gold": 160,
+      "items": ["feywild_blossom"]
+    }
+  },
+  {
+    "id": "volcanic_sample_028",
+    "title": "Volcanic Research",
+    "description": "Collect lava cores from the active volcano (DANGER: Extreme heat!).",
+    "giver": "npc_geologist",
+    "location": "Emberpeak Volcano",
+    "objective_type": "collect",
+    "target": "lava_core",
+    "target_amount": 3,
+    "reward": {
+      "gold": 240,
+      "items": ["fireproof_cloak"]
+    }
+  },
+  {
+    "id": "mermaid_treaty_029",
+    "title": "Mermaid Treaty",
+    "description": "Negotiate peace between sailors and mermaids at Coral Reef.",
+    "giver": "npc_diplomat",
+    "location": "Sapphire Coral Reef",
+    "objective_type": "negotiate",
+    "target": "mermaid_queen",
+    "reward": {
+      "gold": 320,
+      "items": ["pearl_of_persuasion"]
+    }
+  },
+  {
+    "id": "time_anomaly_030",
+    "title": "Time Anomaly Investigation",
+    "description": "Fix temporal rifts causing time loops in the Arcane University.",
+    "giver": "npc_chronomancer",
+    "location": "Arcane University",
+    "objective_type": "repair",
+    "target": "time_rift",
+    "target_amount": 7,
+      "reward": {
+        "gold": 500,
+        "items": ["pocket_watch_of_holding"]
+      }
+    },
+    {
+        "id": "blacksmith_legacy_031",
+    "title": "The Blacksmith's Legacy",
+    "description": "Retrieve the legendary +1 Flaming Longsword from the ruins of Dwarvenforge.",
+    "giver": "npc_blacksmith",
+    "location": "Dwarvenforge Ruins",
+    "objective_type": "retrieve",
+    "target": "+1 Flaming Longsword",
+    "reward": {
+      "gold": 200,
+      "items": ["adamantine_ingot"]
+    },
+    "required_item": "Dwarven Forge Key"
+  },
+  {
+    "id": "alchemist_fire_032",
+    "title": "Volatile Ingredients",
+    "description": "Deliver 3 flasks of Alchemist's Fire to the wizard's tower before nightfall.",
+    "giver": "npc_alchemist",
+    "location": "Tower of Azura",
+    "objective_type": "deliver",
+    "target": "Alchemist's Fire",
+    "target_amount": 3,
+    "time_limit": "sunset",
+    "reward": {
+      "gold": 90,
+      "items": ["Potion of Invisibility"]
+    }
+  },
+  {
+    "id": "troll_hunt_033",
+    "title": "Troll Hunt",
+    "description": "Slay 2 Trolls in the Blackmire Swamp before they regenerate.",
+    "giver": "npc_ranger",
+    "location": "Blackmire Swamp",
+    "objective_type": "kill",
+    "target": "Troll",
+    "target_amount": 2,
+    "special_condition": "Must use fire/acid to prevent regeneration",
+    "reward": {
+      "gold": 175,
+      "items": ["Heavy Mace", "Acid (flask)"]
+    }
+  },
+  {
+    "id": "dragon_hoard_034",
+    "title": "Dragon's Hoard",
+    "description": "Retrieve the Staff of Fire from the red dragon's lair in Emberpeak.",
+    "giver": "npc_sorcerer",
+    "location": "Emberpeak Volcano",
+    "objective_type": "retrieve",
+    "target": "Staff of Fire",
+    "enemy": "Adult Red Dragon",
+    "reward": {
+      "gold": 1000,
+      "items": ["Ring of Fire Resistance"]
+    }
+  },
+  {
+    "id": "beholder_lens_035",
+    "title": "The Beholder's Lens",
+    "description": "Recover a magical lens from a Beholder in the Underdark.",
+    "giver": "npc_artificer",
+    "location": "Underdark Caverns",
+    "objective_type": "retrieve",
+    "target": "Beholder Eye Lens",
+    "enemy": "Beholder",
+    "reward": {
+      "gold": 800,
+      "items": ["Headband of Intellect +2"]
+    }
+  },
+  {
+    "id": "mithral_armor_036",
+    "title": "Mithral Masterpiece",
+    "description": "Gather 5 Mithral ingots and deliver them to the master armorer.",
+    "giver": "npc_armorer",
+    "location": "Silverhand Forge",
+    "objective_type": "deliver",
+    "target": "Mithral",
+    "target_amount": 5,
+    "reward": {
+      "gold": 300,
+      "items": ["Chain Shirt"],
+      "unlocks": "Mithral Armor Crafting"
+    }
+  },
+  {
+    "id": "werewolf_curse_037",
+    "title": "Silver for the Cursed",
+    "description": "Hunt 3 Werewolves in the Moonwood using Alchemical Silver weapons.",
+    "giver": "npc_priest",
+    "location": "Moonwood Forest",
+    "objective_type": "kill",
+    "target": "Werewolf",
+    "target_amount": 3,
+    "required_items": ["Alchemical Silver weapon"],
+    "reward": {
+      "gold": 220,
+      "items": ["Cloak of Resistance +1"]
+    }
+  },
+  {
+    "id": "wands_war_038",
+    "title": "Wands of War",
+    "description": "Recover a Wand of Magic Missile and Wand of Cure Light Wounds from the abandoned mage tower.",
+    "giver": "npc_merchant",
+    "location": "Tower of Lost Spells",
+    "objective_type": "retrieve",
+    "target": ["Wand of Magic Missile (CL 1)", "Wand of Cure Light Wounds (CL 1)"],
+    "reward": {
+      "gold": 350,
+      "items": ["Metamagic Rod, Extend Lesser"]
+    }
+  },
+  {
+    "id": "cavalry_call_039",
+    "title": "Cavalry Call",
+    "description": "Procure 2 Heavy Horses for the royal guard's cavalry unit.",
+    "giver": "npc_captain",
+    "location": "Royal Stables",
+    "objective_type": "deliver",
+    "target": "Heavy Horse",
+    "target_amount": 2,
+    "reward": {
+      "gold": 400,
+      "items": ["Riding Saddle"]
+    }
+  },
+  {
+    "id": "lich_phylactery_040",
+    "title": "Destroy the Lich's Phylactery",
+    "description": "Find and destroy the phylactery of the lich Valthorax in his bone fortress.",
+    "giver": "npc_archmage",
+    "location": "Necropolis of Valthorax",
+    "objective_type": "destroy",
+    "target": "Phylactery",
+    "enemy": "Lich",
+    "required_items": ["Holy Water (flask)", "Silvered Sword"],
+    "reward": {
+      "gold": 2000,
+      "items": ["Ring of Protection +1", "Scroll of Fireball (CL 5)"]
+    }
+  }
+]

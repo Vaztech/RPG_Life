@@ -1,0 +1,7 @@
+{
+  "seed": 12345678,
+  "modified_chunks": {
+    "0_0": { "visited": true, "structures": ["town"] },
+    "3_1": { "looted": true }
+  }
+}

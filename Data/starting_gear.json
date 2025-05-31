@@ -1,0 +1,14 @@
+{
+  "Warrior": {
+    "items": ["sword_iron", "shield_wood", "potion_minor"]
+  },
+  "Mage": {
+    "items": ["staff_basic", "robe_apprentice", "potion_mana"]
+  },
+  "Thief": {
+    "items": ["dagger_rusty", "cloak_leather", "potion_minor"]
+  },
+  "Default": {
+    "items": ["stick", "potion_minor"]
+  }
+}

@@ -1,0 +1,32 @@
+{
+    "inn": {
+        "scene": "res://Scenes/Innkeeper.tscn",
+        "type": "Inn",
+        "min_distance": 3,
+        "max_count": 1
+    },
+    "blacksmith": {
+        "scene": "res://Scenes/Shopkeepers/Blacksmith.tscn",
+        "type": "Shop",
+        "min_distance": 2,
+        "max_count": 1
+    },
+    "magic_shop": {
+        "scene": "res://Scenes/Shopkeepers/MagicShop.tscn",
+        "type": "Shop",
+        "min_distance": 2,
+        "max_count": 1
+    },
+    "general_store": {
+        "scene": "res://Scenes/Shopkeepers/GeneralStore.tscn",
+        "type": "Shop",
+        "min_distance": 2,
+        "max_count": 1
+    },
+    "quest_giver": {
+        "scene": "res://Scenes/QuestGiver.tscn",
+        "type": "QuestGiver",
+        "min_distance": 2,
+        "max_count": 2
+    }
+}
