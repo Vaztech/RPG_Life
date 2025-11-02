@@ -12,7 +12,7 @@ config_version=5
 
 config/name="RPG Life"
 run/main_scene="uid://cx0w1v8kqvq7v"
-config/features=PackedStringArray("4.4", "Forward Plus")
+config/features=PackedStringArray("4.5", "Forward Plus")
 config/icon="res://icon.svg"
 
 [autoload]
@@ -24,6 +24,7 @@ QuestManager="*res://Scripts/QuestManager.gd"
 WorldTime="*res://Scripts/WorldTime.gd"
 ThemeManager="*res://Scripts/ThemeManager.gd"
 GameWorld="*res://Scenes/GameWorld.tscn"
+GameConfig="*res://Scripts/GameConfig.gd"
 
 [editor_plugins]
 
