@@ -23,7 +23,7 @@ WorldSaveManager="*res://Scripts/WorldSaveManager.gd"
 QuestManager="*res://Scripts/QuestManager.gd"
 WorldTime="*res://Scripts/WorldTime.gd"
 ThemeManager="*res://Scripts/ThemeManager.gd"
-GameWorld="*res://Scenes/GameWorld.tscn"
+GameWorld="res://Scenes/GameWorld.tscn"
 GameConfig="*res://Scripts/GameConfig.gd"
 
 [editor_plugins]

@@ -1,30 +1,52 @@
 extends Control
-# Expects buttons named: NewGameButton, LoadGameButton, OptionsButton, QuitButton
+signal start_game
+signal open_load_menu
+signal open_options
 
-@onready var new_game_btn: Button  = %NewGameButton
-@onready var load_game_btn: Button = %LoadGameButton
-@onready var options_btn: Button   = %OptionsButton
-@onready var quit_btn: Button      = %QuitButton
+# Drag your actual Button nodes into these slots in the Inspector
+@export var new_game_path: NodePath
+@export var load_path: NodePath
+@export var options_path: NodePath
+@export var quit_path: NodePath
+
+var _started := false
+var _new_btn: Button
+var _load_btn: Button
+var _opt_btn: Button
+var _quit_btn: Button
 
 func _ready() -> void:
 	print("📌 MainMenu _ready")
-	if is_instance_valid(new_game_btn):  new_game_btn.pressed.connect(_on_new_game_pressed)
-	if is_instance_valid(load_game_btn): load_game_btn.pressed.connect(_on_load_game_pressed)
-	if is_instance_valid(options_btn):   options_btn.pressed.connect(_on_options_pressed)
-	if is_instance_valid(quit_btn):      quit_btn.pressed.connect(_on_quit_pressed)
+
+	_new_btn  = get_node_or_null(new_game_path)
+	_load_btn = get_node_or_null(load_path)
+	_opt_btn  = get_node_or_null(options_path)
+	_quit_btn = get_node_or_null(quit_path)
+
+	if _new_btn:  _new_btn.pressed.connect(_on_new_game_pressed)
+	else:         push_warning("Assign 'new_game_path' to your New Game button in the Inspector.")
+	if _load_btn: _load_btn.pressed.connect(_on_load_pressed)
+	if _opt_btn:  _opt_btn.pressed.connect(_on_options_pressed)
+	if _quit_btn: _quit_btn.pressed.connect(_on_quit_pressed)
 
 func _on_new_game_pressed() -> void:
-	print("🟢 New Game clicked")
-	GameConfig.reset()  # autoload you just created
+	if _started: return
+	_started = true
+	print("🚀 Starting New Game...")
+	emit_signal("start_game")
+	if Engine.has_singleton("GameConfig"):
+		GameConfig.reset()
 	get_tree().change_scene_to_file("res://Scenes/WorldBuilder.tscn")
 
-func _on_load_game_pressed() -> void:
-	print("📂 Load Game clicked (stub)")
-	# TODO: open your load UI
+func _on_load_pressed() -> void:
+	print("📂 Load Game clicked")
+	emit_signal("open_load_menu")
+	# get_tree().change_scene_to_file("res://Scenes/LoadGame.tscn")  # later
 
 func _on_options_pressed() -> void:
-	print("⚙️ Options clicked (stub)")
-	# TODO: open options panel
+	print("⚙️ Options clicked")
+	emit_signal("open_options")
+	# %OptionsPanel.visible = true  # if you add one
 
 func _on_quit_pressed() -> void:
 	print("🚪 Quit clicked")

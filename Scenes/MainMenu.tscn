@@ -12,6 +12,10 @@ offset_bottom = 1.0
 grow_horizontal = 2
 grow_vertical = 2
 script = ExtResource("1")
+new_game_path = NodePath("VBoxContainer/NewGameButton")
+load_path = NodePath("VBoxContainer/LoadButton")
+options_path = NodePath("VBoxContainer/OptionsButton")
+quit_path = NodePath("VBoxContainer/QuitButton")
 
 [node name="VBoxContainer" type="VBoxContainer" parent="."]
 layout_mode = 1
@@ -31,3 +35,15 @@ alignment = 1
 [node name="NewGameButton" type="Button" parent="VBoxContainer"]
 layout_mode = 2
 text = "New Game"
+
+[node name="LoadButton" type="Button" parent="VBoxContainer"]
+layout_mode = 2
+text = "Load save"
+
+[node name="OptionsButton" type="Button" parent="VBoxContainer"]
+layout_mode = 2
+text = "Options"
+
+[node name="QuitButton" type="Button" parent="VBoxContainer"]
+layout_mode = 2
+text = "Quit"

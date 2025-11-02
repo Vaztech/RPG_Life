@@ -1,0 +1,59 @@
+[gd_scene load_steps=2 format=3 uid="uid://cnubyyfwdaavh"]
+
+[ext_resource type="Script" uid="uid://nmkvg82f7a6p" path="res://Scripts/CharacterBuilder.gd" id="1_0mdjr"]
+
+[node name="CharacterBuilder" type="Control"]
+layout_mode = 3
+anchors_preset = 15
+anchor_right = 1.0
+anchor_bottom = 1.0
+grow_horizontal = 2
+grow_vertical = 2
+script = ExtResource("1_0mdjr")
+
+[node name="Margin" type="MarginContainer" parent="."]
+layout_mode = 0
+offset_right = 40.0
+offset_bottom = 40.0
+
+[node name="VBoxContainer" type="VBoxContainer" parent="Margin"]
+layout_mode = 2
+
+[node name="Character Builder" type="Label" parent="Margin/VBoxContainer"]
+layout_mode = 2
+text = "Character Builder"
+
+[node name="NameHBox" type="HBoxContainer" parent="Margin/VBoxContainer"]
+layout_mode = 2
+
+[node name="NameLabel" type="Label" parent="Margin/VBoxContainer/NameHBox"]
+layout_mode = 2
+text = "Name: "
+
+[node name="NameField" type="LineEdit" parent="Margin/VBoxContainer/NameHBox"]
+layout_mode = 2
+placeholder_text = "Adventurer"
+
+[node name="ClassHBox" type="HBoxContainer" parent="Margin/VBoxContainer"]
+layout_mode = 2
+
+[node name="ClassLabel" type="Label" parent="Margin/VBoxContainer/ClassHBox"]
+layout_mode = 2
+text = "Class: "
+
+[node name="ClassDropdown" type="OptionButton" parent="Margin/VBoxContainer/ClassHBox"]
+layout_mode = 2
+item_count = 1
+popup/item_0/text = "Warior, Mage, Rogue"
+popup/item_0/id = 0
+
+[node name="Buttons" type="HBoxContainer" parent="Margin/VBoxContainer"]
+layout_mode = 2
+
+[node name="Back" type="Button" parent="Margin/VBoxContainer/Buttons"]
+layout_mode = 2
+text = "Back"
+
+[node name="StartGame" type="Button" parent="Margin/VBoxContainer/Buttons"]
+layout_mode = 2
+text = "Start Game"
