@@ -47,9 +47,13 @@ text = "Class: "
 
 [node name="ClassDropdown" type="OptionButton" parent="Margin/VBoxContainer/ClassHBox"]
 layout_mode = 2
-item_count = 1
-popup/item_0/text = "Warior, Mage, Rogue"
+item_count = 3
+popup/item_0/text = "Warior"
 popup/item_0/id = 0
+popup/item_1/text = "Mage"
+popup/item_1/id = 1
+popup/item_2/text = "Rouge"
+popup/item_2/id = 2
 
 [node name="Buttons" type="HBoxContainer" parent="Margin/VBoxContainer"]
 layout_mode = 2
