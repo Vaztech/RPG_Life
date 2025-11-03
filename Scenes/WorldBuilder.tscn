@@ -7,9 +7,19 @@ layout_mode = 3
 anchors_preset = 15
 anchor_right = 1.0
 anchor_bottom = 1.0
+offset_left = 371.0
+offset_top = 106.0
+offset_right = -421.0
+offset_bottom = -243.0
 grow_horizontal = 2
 grow_vertical = 2
 script = ExtResource("1")
+seed_field_path = NodePath("MarginContainer/VBoxContainer/SeedHBox/SeedField")
+width_spin_path = NodePath("MarginContainer/VBoxContainer/SizeHBox/WidthLabel/Width")
+height_spin_path = NodePath("MarginContainer/VBoxContainer/SizeHBox/HeightLabel/Height")
+world_type_path = NodePath("MarginContainer/VBoxContainer/TypeHBox/WorldType")
+back_button_path = NodePath("MarginContainer/VBoxContainer/Buttons/Back")
+continue_button_path = NodePath("MarginContainer/VBoxContainer/Buttons/Continue")
 
 [node name="MarginContainer" type="MarginContainer" parent="."]
 layout_mode = 0
@@ -43,7 +53,8 @@ text = "Width"
 
 [node name="Width" type="SpinBox" parent="MarginContainer/VBoxContainer/SizeHBox/WidthLabel"]
 layout_mode = 0
-offset_right = 86.5625
+offset_left = 60.0
+offset_right = 146.5625
 offset_bottom = 31.0
 min_value = 8.0
 max_value = 2048.0
@@ -55,8 +66,10 @@ text = "Height"
 
 [node name="Height" type="SpinBox" parent="MarginContainer/VBoxContainer/SizeHBox/HeightLabel"]
 layout_mode = 0
-offset_right = 86.5625
-offset_bottom = 31.0
+offset_left = 70.164734
+offset_top = -4.9694824
+offset_right = 156.72723
+offset_bottom = 26.030518
 min_value = 8.0
 max_value = 2048.0
 value = 128.0

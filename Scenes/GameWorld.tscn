@@ -23,3 +23,4 @@ tile_set = ExtResource("3")
 [node name="TownMarkers" type="Node2D" parent="World/MapContainer"]
 
 [node name="Camera2D" type="Camera2D" parent="."]
+position = Vector2(591, 324)

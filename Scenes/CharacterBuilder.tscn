@@ -10,6 +10,10 @@ anchor_bottom = 1.0
 grow_horizontal = 2
 grow_vertical = 2
 script = ExtResource("1_0mdjr")
+name_field_path = NodePath("Margin/VBoxContainer/NameHBox/NameField")
+class_dd_path = NodePath("Margin/VBoxContainer/ClassHBox/ClassDropdown")
+back_button_path = NodePath("Margin/VBoxContainer/Buttons/Back")
+start_button_path = NodePath("Margin/VBoxContainer/Buttons/StartGame")
 
 [node name="Margin" type="MarginContainer" parent="."]
 layout_mode = 0

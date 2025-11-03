@@ -1,38 +1,27 @@
 extends Node
-# Attach this to a child node named "GameStarter" under GameWorld in GameWorld.tscn
-
+@export var world_node_path: NodePath = NodePath("../World")
 @export var player_scene: PackedScene
 @export var spawn_position: Vector2 = Vector2(100, 100)
 
+var _started: bool = false
+
 func _ready() -> void:
-	# Give siblings a frame to enter tree / run _ready / register groups
-	await get_tree().process_frame   # <-- no parentheses
+	await get_tree().process_frame
+	if _started: return
+	_started = true
 
 	var seed_value: int = GameConfig.ensure_seed_nonzero()
 	print("[GameStarter] seed:", seed_value)
 
-	var world: Node = null
-
-	# 1) Try sibling path first
-	world = get_node_or_null("../World")
-	if world:
-		print("[GameStarter] Found world by path:", world.get_path())
-	else:
-		# 2) Fallback to group lookup (World.gd should add itself in _enter_tree)
-		world = get_tree().get_first_node_in_group("world_root")
-		if world:
-			print("[GameStarter] Found world by group:", world.get_path())
-
-	assert(world != null, "World not found. Ensure GameWorld/World has World.gd attached and adds itself to 'world_root'.")
-	assert(world.has_method("generate_from_seed"), "World is missing generate_from_seed().")
+	var world: Node = get_node_or_null(world_node_path)
+	assert(world != null, "GameStarter: World not found at '%s' (set world_node_path in Inspector)." % [world_node_path])
+	assert(world.has_method("generate_from_seed"), "World needs generate_from_seed(seed:int).")
 
 	world.call("generate_from_seed", seed_value)
 
-	# Optional: spawn player if assigned
 	if player_scene:
-		var player_instance := player_scene.instantiate()
-		var chosen_name: String = str(GameConfig.get_character_option("name", "Adventurer"))
-		player_instance.name = chosen_name
-		get_tree().current_scene.add_child(player_instance)
-		player_instance.global_position = spawn_position
-		print("[GameStarter] Player spawned at", spawn_position)
+		var p: Node2D = player_scene.instantiate()
+		p.name = str(GameConfig.get_character_option("name", "Adventurer"))
+		get_tree().current_scene.add_child(p)
+		p.global_position = spawn_position
+		print("[GameStarter] Player '%s' spawned at %s" % [p.name, str(spawn_position)])
