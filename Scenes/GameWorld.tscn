@@ -17,6 +17,7 @@ script = ExtResource("2")
 [node name="MapTileMap" type="TileMapLayer" parent="World"]
 use_parent_material = true
 tile_set = ExtResource("3")
+rendering_quadrant_size = 32
 
 [node name="MapContainer" type="Node2D" parent="World"]
 
